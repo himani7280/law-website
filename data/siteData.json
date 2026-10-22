@@ -1,0 +1,3725 @@
+{
+  "variants": {
+    "theme": {
+      "primary": "#d9b36c",
+      "accent": "#b98a3e",
+      "background": "#f8f1e7",
+      "dark": "#12060c",
+      "forest": "#1e0a14"
+    },
+    "animation": {
+      "staggerDelay": 0.12,
+      "fadeDuration": 0.6
+    }
+  },
+  "Law": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "LawHeader1",
+          "Footer": "LawFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawHomeHero1",
+                "component": "LawHomeHero1"
+              },
+              {
+                "key": "Marquee",
+                "variant": "LawMarquee1",
+                "component": "LawMarquee1"
+              },
+              {
+                "key": "About",
+                "variant": "LawAbout1",
+                "component": "LawAbout1"
+              },
+              {
+                "key": "Stats",
+                "variant": "LawStats1",
+                "component": "LawStats1"
+              },
+              {
+                "key": "Testimonials",
+                "variant": "LawTestimonials1",
+                "component": "LawTestimonials1"
+              },
+              {
+                "key": "Cta",
+                "variant": "LawCta1",
+                "component": "LawCta1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawAboutHero1",
+                "component": "LawAboutHero1"
+              },
+              {
+                "key": "About",
+                "variant": "LawAboutPage1",
+                "component": "LawAboutPage1"
+              },
+              {
+                "key": "Timeline",
+                "variant": "LawTimeline1",
+                "component": "LawTimeline1"
+              },
+              {
+                "key": "PhotoStrip",
+                "variant": "LawPhotoStrip1",
+                "component": "LawPhotoStrip1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawServicesHero1",
+                "component": "LawServicesHero1"
+              },
+              {
+                "key": "Process",
+                "variant": "LawProcess1",
+                "component": "LawProcess1"
+              },
+              {
+                "key": "Services",
+                "variant": "LawServices1",
+                "component": "LawServices1"
+              }
+            ]
+          },
+          "portfolio": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawPortfolioHero1",
+                "component": "LawPortfolioHero1"
+              },
+              {
+                "key": "Portfolio",
+                "variant": "LawPortfolio1",
+                "component": "LawPortfolio1"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawBlogHero1",
+                "component": "LawBlogHero1"
+              },
+              {
+                "key": "BlogPage",
+                "variant": "LawBlogPage1",
+                "component": "LawBlogPage1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawContactHero1",
+                "component": "LawContactHero1"
+              },
+              {
+                "key": "ContactForm",
+                "variant": "LawContactForm1",
+                "component": "LawContactForm1"
+              }
+            ]
+          },
+          "faq": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawFaqHero1",
+                "component": "LawFaqHero1"
+              },
+              {
+                "key": "Faq",
+                "variant": "LawFaq1",
+                "component": "LawFaq1"
+              }
+            ]
+          },
+          "ourTeam": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawOurTeamHero1",
+                "component": "LawOurTeamHero1"
+              },
+              {
+                "key": "Team",
+                "variant": "LawTeam1",
+                "component": "LawTeam1"
+              }
+            ]
+          },
+          "testimonials": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawTestimonialsHero1",
+                "component": "LawTestimonialsHero1"
+              },
+              {
+                "key": "Reviews",
+                "variant": "LawReviews1",
+                "component": "LawReviews1"
+              }
+            ]
+          },
+          "consultation": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawConsultationHero1",
+                "component": "LawConsultationHero1"
+              },
+              {
+                "key": "Consultation",
+                "variant": "LawConsultation1",
+                "component": "LawConsultation1"
+              }
+            ]
+          },
+          "privacyPolicy": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawPrivacyHero1",
+                "component": "LawPrivacyHero1"
+              },
+              {
+                "key": "Policy",
+                "variant": "LawPrivacyPolicy1",
+                "component": "LawPrivacyPolicy1"
+              }
+            ]
+          },
+          "thankYou": {
+            "components": [
+              {
+                "key": "Hero",
+                "variant": "LawThankYouHero1",
+                "component": "LawThankYouHero1"
+              },
+              {
+                "key": "ThankYou",
+                "variant": "LawThankYou1",
+                "component": "LawThankYou1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "Hero": {
+        "variants": {
+          "LawHomeHero1": {
+            "title": "Home",
+            "image": "/taraju-scales.webp",
+            "crumb": "Home"
+          },
+          "LawAboutHero1": {
+            "title": "About Our Chambers",
+            "image": "/taraju-scales.webp",
+            "crumb": "About Chambers"
+          },
+          "LawContactHero1": {
+            "title": "Contact Our Chambers",
+            "image": "/taraju-scales.webp",
+            "crumb": "Contact Chambers"
+          },
+          "LawBlogHero1": {
+            "title": "Legal Insights & Jurisprudence",
+            "image": "/taraju-scales.webp",
+            "crumb": "Legal Insights"
+          },
+          "LawServicesHero1": {
+            "title": "Our Practice Areas",
+            "image": "/taraju-scales.webp",
+            "crumb": "Practice Areas"
+          },
+          "LawPortfolioHero1": {
+            "title": "Landmark Representations",
+            "image": "/taraju-scales.webp",
+            "crumb": "Landmark Cases"
+          },
+          "LawBlogDetailHero1": {
+            "title": "Legal Analysis & Judgment Note",
+            "image": "/taraju-scales.webp",
+            "crumb": "Article Note"
+          },
+          "LawServiceDetailHero1": {
+            "title": "Practice Area Brief",
+            "image": "/taraju-scales.webp",
+            "crumb": "Practice Area"
+          },
+          "LawWhyChooseUsHero1": {
+            "title": "Why Choose Our Chambers",
+            "image": "/taraju-scales.webp",
+            "crumb": "Why Us"
+          },
+          "LawOurTeamHero1": {
+            "title": "Our Senior Advocates & Partners",
+            "image": "/taraju-scales.webp",
+            "crumb": "Our Team"
+          },
+          "LawTeamDetailsHero1": {
+            "title": "Advocate Profile & Credentials",
+            "image": "/taraju-scales.webp",
+            "crumb": "Advocate Profile"
+          },
+          "LawTestimonialsHero1": {
+            "title": "Client Testimonials & Feedback",
+            "image": "/taraju-scales.webp",
+            "crumb": "Testimonials"
+          },
+          "LawFaqHero1": {
+            "title": "Frequently Asked Questions",
+            "image": "/portfolio-books.webp",
+            "crumb": "FAQ"
+          },
+          "LawPrivacyHero1": {
+            "title": "Privacy Policy & Statutory Privilege",
+            "image": "/taraju-scales.webp",
+            "crumb": "Privacy"
+          },
+          "LawTermsHero1": {
+            "title": "Terms of Legal Engagement",
+            "image": "/taraju-scales.webp",
+            "crumb": "Terms"
+          },
+          "LawThankYouHero1": {
+            "title": "Consultation Request Received",
+            "image": "/taraju-scales.webp",
+            "crumb": "Acknowledgment"
+          },
+          "LawConsultationHero1": {
+            "title": "Schedule Legal Consultation",
+            "image": "/taraju-scales.webp",
+            "crumb": "Consultation"
+          },
+          "LawSitemapHero1": {
+            "title": "Website Sitemap",
+            "image": "/taraju-scales.webp",
+            "crumb": "Sitemap"
+          },
+          "LawDisclaimerHero1": {
+            "title": "Bar Council Disclaimer",
+            "image": "/taraju-scales.webp",
+            "crumb": "Disclaimer"
+          }
+        }
+      },
+      "HomeHero": {
+        "variants": {
+          "LawHomeHero1": {
+            "eyebrow": "Advocates & Legal Consultants",
+            "words": [
+              "Justice.",
+              "Advocacy.",
+              "Mastery.",
+              "In",
+              "Law."
+            ],
+            "description": "Formidable courtroom advocacy, high-stakes commercial litigation, and strategic corporate legal counsel — delivered with relentless dedication and proven jurisprudence before federal appellate benches and arbitral tribunals.",
+            "primaryCta": {
+              "label": "Schedule Consultation",
+              "href": "/book-a-consultation"
+            },
+            "secondaryCta": {
+              "label": "Our Practice Areas",
+              "href": "/practice-areas"
+            },
+            "image": "/taraju-scales.webp",
+            "floatImage": "/hero-advocate.webp",
+            "badge": "Advocates & Legal Consultants",
+            "rotating": [
+              "Supreme Court Litigation",
+              "Corporate & M&A Advisory",
+              "Commercial Arbitration",
+              "Intellectual Property Rights",
+              "Insolvency & Bankruptcy (IBC)",
+              "White-Collar Crime Defense"
+            ],
+            "titleStart": "Defending Rights,",
+            "titleBeforeHighlight": "with",
+            "titleHighlight": "Jurisprudential Mastery",
+            "titleEnd": "and Unyielding Resolve.",
+            "primaryButton": "Schedule Consultation",
+            "primaryLink": "/book-a-consultation",
+            "secondaryButton": "Our Practice Areas",
+            "secondaryLink": "/practice-areas",
+            "features": [
+              {
+                "title": "Supreme Court Appellate Practice",
+                "description": "Decades of trial advocacy before appellate benches."
+              },
+              {
+                "title": "Strict Statutory Privilege",
+                "description": "Privileged communications under Section 126 Evidence Act."
+              },
+              {
+                "title": "High-Stakes Commercial Mastery",
+                "description": "Multi-jurisdiction arbitrations and commercial disputes."
+              }
+            ],
+            "sidebar": {
+              "topWords": [
+                "JUSTICE",
+                "ADVOCACY",
+                "INTEGRITY",
+                "VERDICT"
+              ],
+              "brand": "VEYRA LEGAL",
+              "bottomLines": [
+                "A BASTION",
+                "OF LAW &",
+                "UNYIELDING",
+                "RIGHTS."
+              ]
+            }
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "LawAbout1": {
+            "badge": "ABOUT VEYRA LEGAL",
+            "titleStart": "An Unyielding Bastion",
+            "titleMiddle": "of Justice &",
+            "titleHighlight": "Strategic Legal Counsel",
+            "description": "Veyra Legal is a premier full-service law firm of Advocates & Legal Consultants providing formidable representation before the Supreme Court of India, High Courts, and Arbitral Tribunals worldwide — combining decades of appellate advocacy with sharp corporate acumen to resolve high-stakes disputes with precision and uncompromising confidentiality.",
+            "paragraphs": [
+              "Veyra Legal is a premier full-service law firm of Advocates & Legal Consultants providing formidable representation before the Supreme Court of India, High Courts, and Arbitral Tribunals worldwide — combining decades of appellate advocacy with sharp corporate acumen to resolve high-stakes disputes with precision and uncompromising confidentiality."
+            ],
+            "image": "/about-chambers.webp",
+            "image2": "/team-vikramaditya.webp",
+            "imageAlt": "Veyra Legal Advocates",
+            "points": [
+              "Bar Council of India certified Senior Advocates",
+              "Supreme Court & High Court appellate standing",
+              "Strict attorney-client privilege & confidentiality",
+              "Transparent legal retainers & fixed-fee advisory"
+            ],
+            "mission": [
+              {
+                "title": "Our Mission",
+                "text": "Champion our clients' constitutional, commercial, and personal rights through rigorous legal craft, incisive advocacy, and ethical integrity."
+              },
+              {
+                "title": "Our Vision",
+                "text": "To stand as the most authoritative and trusted law firm, setting the standard for courtroom excellence and client-first advocacy."
+              }
+            ],
+            "features": [
+              {
+                "icon": "Scale",
+                "title": "Appellate",
+                "subtitle": "Advocacy",
+                "description": "Decades of trial practice before the Supreme Court and High Courts."
+              },
+              {
+                "icon": "ShieldCheck",
+                "title": "Absolute",
+                "subtitle": "Confidentiality",
+                "description": "Protected by statutory attorney-client legal privilege."
+              },
+              {
+                "icon": "Users",
+                "title": "Client-Centric",
+                "subtitle": "Strategy",
+                "description": "Proactive forum selection and multi-tier litigation strategies."
+              }
+            ],
+            "buttonText": "Learn More About Us",
+            "buttonLink": "/who-we-are",
+            "callout": "25+ Years of Precedent-Setting Jurisprudence.",
+            "title": "Unyielding Justice &\nStrategic Counsel"
+          }
+        }
+      },
+      "AboutPage": {
+        "variants": {
+          "LawAboutPage1": {
+            "image": "/about-chambers.webp",
+            "imageAlt": "Veyra Legal Chambers",
+            "badge": "ABOUT VEYRA LEGAL",
+            "titleStart": "Decades of Trial Advocacy,",
+            "titleMiddle": "Protecting",
+            "titleHighlight": "Client Rights",
+            "description": "Veyra Legal is a premier full-service law firm of Advocates & Legal Consultants providing formidable representation before the Supreme Court of India, High Courts, and Arbitral Tribunals worldwide — combining decades of appellate advocacy with sharp corporate acumen to resolve high-stakes disputes with precision and uncompromising confidentiality."
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "LawServices1": {
+            "image": "/practice-corporate.webp",
+            "imageAlt": "Veyra Legal Practice Areas",
+            "badge": "OUR PRACTICE AREAS",
+            "titleStart": "Comprehensive Legal Counsel\n& Courtroom",
+            "titleHighlight": "Defense",
+            "description": "Formidable courtroom advocacy, high-stakes commercial litigation, and strategic corporate legal counsel delivered with relentless dedication.",
+            "serviceLink": "/practice-areas",
+            "items": [
+              {
+                "icon": "Building2",
+                "title": "Corporate & Commercial Law",
+                "subtitle": "Practice Area",
+                "description": "Strategic M&A, cross-border joint ventures, regulatory compliance, contract drafting, and corporate governance for enterprises.",
+                "text": "Strategic M&A, cross-border joint ventures, regulatory compliance, contract drafting, and corporate governance for enterprises.",
+                "image": "/practice-corporate.webp",
+                "href": "/practice-areas/corporate-commercial-law"
+              },
+              {
+                "icon": "Gavel",
+                "title": "Commercial Litigation",
+                "subtitle": "Practice Area",
+                "description": "Tenacious trial advocacy before the Supreme Court, High Courts, and Commercial Courts for high-stakes business disputes.",
+                "text": "Tenacious trial advocacy before the Supreme Court, High Courts, and Commercial Courts for high-stakes business disputes.",
+                "image": "/practice-litigation.webp",
+                "href": "/practice-areas/commercial-litigation"
+              },
+              {
+                "icon": "Scale",
+                "title": "Arbitration & Dispute Resolution",
+                "subtitle": "Practice Area",
+                "description": "Domestic and international commercial arbitration under SIAC, ICC, LCIA, and the Arbitration & Conciliation Act.",
+                "text": "Domestic and international commercial arbitration under SIAC, ICC, LCIA, and the Arbitration & Conciliation Act.",
+                "image": "/practice-arbitration.webp",
+                "href": "/practice-areas/arbitration-dispute-resolution"
+              },
+              {
+                "icon": "Award",
+                "title": "Intellectual Property Rights",
+                "subtitle": "Practice Area",
+                "description": "Trademark prosecution, patent defense, copyright enforcement, trade secrets protection, and anti-counterfeiting injunctions.",
+                "text": "Trademark prosecution, patent defense, copyright enforcement, trade secrets protection, and anti-counterfeiting injunctions.",
+                "image": "/practice-ip.webp",
+                "href": "/practice-areas/intellectual-property-rights"
+              },
+              {
+                "icon": "Landmark",
+                "title": "Insolvency & Bankruptcy (IBC)",
+                "subtitle": "Practice Area",
+                "description": "NCLT and NCLAT representation, debt restructuring, creditor rights defense, and Corporate Insolvency Resolution Processes (CIRP).",
+                "text": "NCLT and NCLAT representation, debt restructuring, creditor rights defense, and Corporate Insolvency Resolution Processes (CIRP).",
+                "image": "/practice-ibc.webp",
+                "href": "/practice-areas/insolvency-bankruptcy-ibc"
+              },
+              {
+                "icon": "Briefcase",
+                "title": "Real Estate & Infrastructure",
+                "subtitle": "Practice Area",
+                "description": "High-value property title diligence, RERA litigation, project structuring, construction dispute claims, and FDI regulatory approvals.",
+                "text": "High-value property title diligence, RERA litigation, project structuring, construction dispute claims, and FDI regulatory approvals.",
+                "image": "/practice-real-estate.webp",
+                "href": "/practice-areas/real-estate-infrastructure"
+              }
+            ],
+            "servicePage": {
+              "badge": "OUR PRACTICE AREAS",
+              "titleStart": "Legal Defense & Strategy for",
+              "titleHighlight": "Complex Disputes",
+              "description": "From appellate litigation before high courts to cross-border arbitration and corporate transactions, our practice areas deliver decisive outcomes.",
+              "readMoreText": "View Practice Area",
+              "items": [
+                {
+                  "icon": "Building2",
+                  "title": "Corporate & Commercial Law",
+                  "description": "Strategic M&A, cross-border joint ventures, regulatory compliance, contract drafting, and corporate governance for enterprises.",
+                  "image": "/practice-corporate.webp",
+                  "href": "/practice-areas/corporate-commercial-law"
+                },
+                {
+                  "icon": "Gavel",
+                  "title": "Commercial Litigation",
+                  "description": "Tenacious trial advocacy before the Supreme Court, High Courts, and Commercial Courts for high-stakes business disputes.",
+                  "image": "/practice-litigation.webp",
+                  "href": "/practice-areas/commercial-litigation"
+                },
+                {
+                  "icon": "Scale",
+                  "title": "Arbitration & Dispute Resolution",
+                  "description": "Domestic and international commercial arbitration under SIAC, ICC, LCIA, and the Arbitration & Conciliation Act.",
+                  "image": "/practice-arbitration.webp",
+                  "href": "/practice-areas/arbitration-dispute-resolution"
+                },
+                {
+                  "icon": "Award",
+                  "title": "Intellectual Property Rights",
+                  "description": "Trademark prosecution, patent defense, copyright enforcement, trade secrets protection, and anti-counterfeiting injunctions.",
+                  "image": "/practice-ip.webp",
+                  "href": "/practice-areas/intellectual-property-rights"
+                },
+                {
+                  "icon": "Landmark",
+                  "title": "Insolvency & Bankruptcy (IBC)",
+                  "description": "NCLT and NCLAT representation, debt restructuring, creditor rights defense, and Corporate Insolvency Resolution Processes (CIRP).",
+                  "image": "/practice-ibc.webp",
+                  "href": "/practice-areas/insolvency-bankruptcy-ibc"
+                },
+                {
+                  "icon": "Briefcase",
+                  "title": "Real Estate & Infrastructure",
+                  "description": "High-value property title diligence, RERA litigation, project structuring, construction dispute claims, and FDI regulatory approvals.",
+                  "image": "/practice-real-estate.webp",
+                  "href": "/practice-areas/real-estate-infrastructure"
+                }
+              ]
+            },
+            "getInTouch": {
+              "image": "/taraju-scales.webp",
+              "badge": "NEED URGENT LEGAL COUNSEL?",
+              "title": "Facing an Urgent Court Hearing or Regulatory Notice?",
+              "description": "Connect with our Senior Advocates under complete statutory privilege for immediate assistance.",
+              "buttonText": "Schedule Legal Consultation",
+              "href": "/book-a-consultation"
+            },
+            "title": "Legal Counsel &\nCourtroom Defense"
+          }
+        }
+      },
+      "ServiceDetailContent": {
+        "variants": {
+          "LawServiceDetail1": {
+            "overviewBadge": "Practice Area Overview",
+            "titleLine1": "Defending Rights,",
+            "titlePrefix": "for",
+            "titleHighlight": "Decisive Verdicts",
+            "image": "/practice-corporate.webp",
+            "imageAlt": "Practice Area Overview",
+            "overviewParagraphs": [
+              "Our chambers provide specialized representation and advisory across complex corporate, regulatory, and appellate dispute matters.",
+              "We structure robust litigation strategies, manage evidentiary discovery, and represent clients before the Supreme Court of India, High Courts, NCLT, NCLAT, and domestic/international arbitral tribunals."
+            ],
+            "services": {
+              "corporate-commercial-law": {
+                "overview": "Veyra Legal delivers comprehensive corporate legal advisory, guiding founders, multinational enterprises, and private equity funds through high-stakes mergers, cross-border joint ventures, and intricate regulatory frameworks. We craft contracts that shield businesses from commercial vulnerabilities while facilitating accelerated growth.",
+                "features": [
+                  "Mergers & Acquisitions (M&A) structuring and closing",
+                  "Drafting Share Purchase (SPA), Shareholders (SHA) & JV Agreements",
+                  "FDI, FEMA, and Reserve Bank of India regulatory compliance",
+                  "Corporate governance, board compliance & directors' liability",
+                  "Commercial contract negotiation & cross-border trade agreements"
+                ],
+                "benefits": [
+                  {
+                    "title": "Risk Insulation",
+                    "text": "Airtight covenants and indemnities that anticipate regulatory and partner disputes."
+                  },
+                  {
+                    "title": "Strategic Dealmaking",
+                    "text": "Commercial acumen aligned with rapid corporate execution and antitrust clearances."
+                  },
+                  {
+                    "title": "Regulatory Harmony",
+                    "text": "Seamless compliance across MCA, RBI, SEBI, and Competition Commission guidelines."
+                  }
+                ],
+                "steps": [
+                  "Deal Structuring & Due Diligence",
+                  "Agreement Drafting & Negotiation",
+                  "Regulatory Filing & Clearances",
+                  "Closing & Post-Merger Integration"
+                ],
+                "faq": [
+                  {
+                    "q": "What is the typical timeframe for resolving matters in this practice area?",
+                    "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+                  },
+                  {
+                    "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+                    "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+                  }
+                ]
+              },
+              "commercial-litigation": {
+                "overview": "Our courtroom advocates represent corporations, financial institutions, and high-net-worth individuals in complex commercial disputes before the Supreme Court of India, High Courts, and Commercial Courts. We combine deep evidentiary mastery with commanding oral advocacy to secure decisive verdicts.",
+                "features": [
+                  "Supreme Court Special Leave Petitions (SLP) & Writ Petitions",
+                  "High Court commercial suits, appeals, and revision applications",
+                  "Emergency interim injunctions and ex-parte stay orders",
+                  "Shareholder disputes, oppression & mismanagement petitions",
+                  "Enforcement of domestic decrees and foreign court judgments"
+                ],
+                "benefits": [
+                  {
+                    "title": "Relentless Advocacy",
+                    "text": "Distinguished oral advocacy backed by meticulous precedent research."
+                  },
+                  {
+                    "title": "Rapid Interim Relief",
+                    "text": "Emergency injunction capabilities to protect assets and business continuity."
+                  },
+                  {
+                    "title": "Multi-Forum Strategy",
+                    "text": "Coordinated defense across civil, criminal, and appellate benches."
+                  }
+                ],
+                "steps": [
+                  "Brief Appraisal & Strategy",
+                  "Flawless Pleadings & Evidence Filing",
+                  "Urgent Mentioning & Interim Relief",
+                  "Trial, Arguments & Decree Enforcement"
+                ],
+                "faq": [
+                  {
+                    "q": "What is the typical timeframe for resolving matters in this practice area?",
+                    "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+                  },
+                  {
+                    "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+                    "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+                  }
+                ]
+              },
+              "arbitration-dispute-resolution": {
+                "overview": "Veyra Legal boasts a dedicated arbitration practice handling domestic and cross-border commercial arbitrations under institutional frameworks including SIAC, ICC, LCIA, and the Indian Arbitration & Conciliation Act. We resolve intricate contractual disputes with speed, confidentiality, and commercial precision.",
+                "features": [
+                  "Domestic and international commercial arbitration representation",
+                  "Section 9 interim relief and Section 11 arbitrator appointments",
+                  "Section 34 challenge and Section 36 enforcement of arbitral awards",
+                  "Bespoke dispute resolution clause drafting & forum selection",
+                  "Commercial mediation and structured settlement negotiations"
+                ],
+                "benefits": [
+                  {
+                    "title": "Strict Confidentiality",
+                    "text": "Disputes settled discreetly away from public court dockets."
+                  },
+                  {
+                    "title": "Cross-Border Standing",
+                    "text": "Proven track record across leading international arbitration seats."
+                  },
+                  {
+                    "title": "Enforceable Awards",
+                    "text": "Tenacious execution and asset attachment under domestic and foreign laws."
+                  }
+                ],
+                "steps": [
+                  "Dispute Notice & Section 9 Relief",
+                  "Arbitral Tribunal Constitution",
+                  "Statement of Claim & Evidentiary Discovery",
+                  "Arbitral Award & Post-Award Execution"
+                ],
+                "faq": [
+                  {
+                    "q": "What is the typical timeframe for resolving matters in this practice area?",
+                    "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+                  },
+                  {
+                    "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+                    "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+                  }
+                ]
+              },
+              "intellectual-property-rights": {
+                "overview": "We safeguard brand identity, patent assets, and creative works across all phases of intellectual property lifecycle — from registration and trademark prosecution to aggressive infringement litigation, John Doe Anton Piller raids, and domain dispute arbitration.",
+                "features": [
+                  "Trademark search, filing, opposition, and portfolio management",
+                  "Patent prosecution, prior-art analysis, and infringement defense",
+                  "Copyright registration and licensing for tech & media assets",
+                  "Ex-parte Anton Piller search & seizure orders for counterfeit goods",
+                  "Trade secret protection covenants and non-compete agreements"
+                ],
+                "benefits": [
+                  {
+                    "title": "Asset Protection",
+                    "text": "Defending core brand equity and proprietary technology from infringement."
+                  },
+                  {
+                    "title": "Swift Injunctions",
+                    "text": "Immediate restraining orders against counterfeiters and trademark squatters."
+                  },
+                  {
+                    "title": "Commercial Monetization",
+                    "text": "Robust IP licensing and franchising legal agreements."
+                  }
+                ],
+                "steps": [
+                  "IP Audit & Clearance Search",
+                  "Filing & Prosecution with Registries",
+                  "Opposition & Rectification Proceedings",
+                  "Courtroom Injunction & Enforcement"
+                ],
+                "faq": [
+                  {
+                    "q": "What is the typical timeframe for resolving matters in this practice area?",
+                    "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+                  },
+                  {
+                    "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+                    "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+                  }
+                ]
+              },
+              "insolvency-bankruptcy-ibc": {
+                "overview": "Our insolvency specialists provide commanding representation before the National Company Law Tribunal (NCLT) and Appellate Tribunal (NCLAT). We represent financial creditors, operational creditors, corporate debtors, and resolution applicants through complex corporate insolvency resolution processes (CIRP).",
+                "features": [
+                  "Section 7, 9, and 10 IBC applications before NCLT benches",
+                  "Representation before the National Company Law Appellate Tribunal (NCLAT)",
+                  "Resolution Applicant bidding, plan drafting, and CIRP advisory",
+                  "Creditor Committee (CoC) legal representation & debt restructuring",
+                  "Avoidance applications (preferential, undervalued, extortionate, fraudulent)"
+                ],
+                "benefits": [
+                  {
+                    "title": "Maximum Recovery",
+                    "text": "Assertive legal mechanisms to maximize asset recovery for creditors."
+                  },
+                  {
+                    "title": "Turnaround Strategy",
+                    "text": "Guiding resolution applicants to acquire distressed assets cleanly."
+                  },
+                  {
+                    "title": "Tribunal Standing",
+                    "text": "Frequent appearances before NCLT benches nationwide."
+                  }
+                ],
+                "steps": [
+                  "Demand Notice & Default Documentation",
+                  "NCLT Petition Filing & Admission",
+                  "Committee of Creditors (CoC) Advisory",
+                  "Resolution Plan Approval / Liquidation"
+                ],
+                "faq": [
+                  {
+                    "q": "What is the typical timeframe for resolving matters in this practice area?",
+                    "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+                  },
+                  {
+                    "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+                    "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+                  }
+                ]
+              },
+              "real-estate-infrastructure": {
+                "overview": "Veyra Legal counsels real estate developers, institutional funds, and landowners on high-value land acquisitions, title due diligence, RERA compliance, and infrastructure construction disputes. We ensure transparent title certification and aggressive representation in property litigation.",
+                "features": [
+                  "Comprehensive 30-year title search, vetting, and certification",
+                  "Drafting Joint Development Agreements (JDA) & long-term leases",
+                  "Real Estate Regulatory Authority (RERA) complaints & appeals",
+                  "Construction contract disputes (EPC, FIDIC) & delayed delivery claims",
+                  "Zoning, land use conversion, and environmental clearance compliance"
+                ],
+                "benefits": [
+                  {
+                    "title": "Defect-Free Title",
+                    "text": "Exhaustive due diligence that eliminates hidden encumbrances."
+                  },
+                  {
+                    "title": "RERA Protection",
+                    "text": "Unrivaled expertise before RERA authorities and appellate tribunals."
+                  },
+                  {
+                    "title": "Project Security",
+                    "text": "Structuring joint ventures that withstand market fluctuations."
+                  }
+                ],
+                "steps": [
+                  "Title Search & Encumbrance Review",
+                  "Structuring JDA & Conveyance Deeds",
+                  "RERA & Regulatory Approvals",
+                  "Litigation Defense & Dispute Settlement"
+                ],
+                "faq": [
+                  {
+                    "q": "What is the typical timeframe for resolving matters in this practice area?",
+                    "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+                  },
+                  {
+                    "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+                    "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "HowItWorks": {
+        "variants": {
+          "LawHowItWorks1": {
+            "badge": "OUR LEGAL METHODOLOGY",
+            "titleStart": "Rigorous Preparation,",
+            "titleHighlight": "Decisive Courtroom Results",
+            "description": "Rigorous Preparation, Decisive Courtroom Results",
+            "steps": [
+              {
+                "number": "01",
+                "image": "/taraju-scales.webp",
+                "title": "Confidential Consultation",
+                "description": "In-depth case appraisal protected by strict statutory attorney-client legal privilege."
+              },
+              {
+                "number": "02",
+                "image": "/taraju-scales.webp",
+                "title": "Jurisprudential Strategy",
+                "description": "Exhaustive precedent research, statutory dissection, and multi-tier forum selection."
+              },
+              {
+                "number": "03",
+                "image": "/taraju-scales.webp",
+                "title": "Pleadings & Discovery",
+                "description": "Flawless drafting of writ petitions, plaints, rejoinders, and comprehensive evidence compilation."
+              },
+              {
+                "number": "04",
+                "image": "/taraju-scales.webp",
+                "title": "Tenacious Trial Advocacy",
+                "description": "Persuasive courtroom oral arguments, incisive cross-examination, and decree enforcement."
+              }
+            ]
+          }
+        }
+      },
+      "Trusted": {
+        "variants": {
+          "LawTrusted1": {
+            "image": "/taraju-scales.webp",
+            "badge": "OUR JURISPRUDENTIAL IMPACT",
+            "titleStart": "Decades of Advocacy,",
+            "titleHighlight": "Uncompromising Integrity",
+            "description": "Our track record reflects decades of relentless legal defense, landmark High Court verbiage, and client trust.",
+            "stats": [
+              {
+                "icon": "Briefcase",
+                "number": "1850+",
+                "label": "Cases Represented",
+                "value": 1850,
+                "suffix": "+"
+              },
+              {
+                "icon": "Trophy",
+                "number": "25+",
+                "label": "Years Experience",
+                "value": 25,
+                "suffix": "+"
+              },
+              {
+                "icon": "Scale",
+                "number": "98%",
+                "label": "Favorable Verdicts",
+                "value": 98,
+                "suffix": "%"
+              },
+              {
+                "icon": "Scale",
+                "number": "1500 Cr+",
+                "label": "Dispute Value Handled",
+                "value": 1500,
+                "suffix": " Cr+"
+              }
+            ]
+          }
+        }
+      },
+      "WhyChooseUs": {
+        "variants": {
+          "LawWhyChooseUs1": {
+            "badge": "WHY VEYRA LEGAL",
+            "titleLines": [
+              "Why You Should",
+              "Choose Our",
+              "Legal Chambers?"
+            ],
+            "description": "Senior courtroom advocates, strategic commercial precision, and an unblemished record across India's highest appellate benches.",
+            "trustedTitle": "Trusted Across Supreme Court & High Courts",
+            "trustedDescription": "Decades of precedent-setting trial advocacy defending corporate and constitutional rights.",
+            "buttonText": "Schedule Consultation",
+            "buttonLink": "/book-a-consultation",
+            "decorativeImages": [
+              {
+                "image": "/taraju-scales.webp",
+                "alt": "Supreme Court Advocates"
+              },
+              {
+                "image": "/about-chambers.webp",
+                "alt": "Legal Consultation Chamber"
+              }
+            ],
+            "tiles": [
+              {
+                "big": "24h",
+                "title": "Emergency Injunctions",
+                "text": "Rapid drafting and same-day filing of urgent stay orders and protective interim relief.",
+                "tone": "dark",
+                "image": "/taraju-scales.webp"
+              },
+              {
+                "big": "100%",
+                "title": "Trial Preparation",
+                "text": "Exhaustive legal research, moot simulations, and evidence scrutiny before every appearance.",
+                "tone": "gold",
+                "image": "/portfolio-contract.webp"
+              },
+              {
+                "big": "Top 1%",
+                "title": "Appellate Standing",
+                "text": "Seasoned advocates with decades of permanent standing before High Courts and Supreme Court.",
+                "tone": "light",
+                "image": "/portfolio-books.webp"
+              },
+              {
+                "big": "100%",
+                "title": "Privileged & Confidential",
+                "text": "Absolute attorney-client privilege protected under law with end-to-end encrypted case vaults.",
+                "tone": "light",
+                "image": "/portfolio-tax.webp"
+              }
+            ],
+            "services": [
+              {
+                "title": "Emergency Injunctions",
+                "description": "Rapid drafting and same-day filing of urgent stay orders and protective interim relief.",
+                "big": "24h",
+                "tone": "dark"
+              },
+              {
+                "title": "Trial Preparation",
+                "description": "Exhaustive legal research, moot simulations, and evidence scrutiny before every appearance.",
+                "big": "100%",
+                "tone": "gold"
+              },
+              {
+                "title": "Appellate Standing",
+                "description": "Seasoned advocates with decades of permanent standing before High Courts and Supreme Court.",
+                "big": "Top 1%",
+                "tone": "light"
+              },
+              {
+                "title": "Privileged & Confidential",
+                "description": "Absolute attorney-client privilege protected under law with end-to-end encrypted case vaults.",
+                "big": "100%",
+                "tone": "light"
+              }
+            ],
+            "title": "A Formidable Edge in\nCourt & Boardroom"
+          }
+        }
+      },
+      "Testimonials": {
+        "variants": {
+          "LawTestimonials1": {
+            "badge": "CLIENT REPRESENTATIONS",
+            "titleStart": "What Our",
+            "titleHighlight": "Clients Say",
+            "mainImage": "/about-chambers.webp",
+            "previousLabel": "Previous testimonial",
+            "nextLabel": "Next testimonial",
+            "sideLabels": [
+              "REAL CLIENTS",
+              "MEASURED VERDICTS"
+            ],
+            "items": [
+              {
+                "id": 1,
+                "name": "Siddharth Malhotra",
+                "role": "General Counsel, Zenith Global Technologies",
+                "image": "/client-siddharth.webp",
+                "rating": 5,
+                "quote": "Veyra Legal secured an urgent interim stay from the High Court within 24 hours of filing. Their trial strategy and presence before the bench are extraordinary.",
+                "text": "Veyra Legal secured an urgent interim stay from the High Court within 24 hours of filing. Their trial strategy and presence before the bench are extraordinary."
+              },
+              {
+                "id": 2,
+                "name": "Pooja Singhania",
+                "role": "Managing Director, Apex InfraCorp",
+                "image": "/client-pooja.webp",
+                "rating": 5,
+                "quote": "In a multi-jurisdiction arbitration worth over ₹100 Crores, their meticulous cross-examination completely dismantled the opponent's claim. Truly master strategists.",
+                "text": "In a multi-jurisdiction arbitration worth over ₹100 Crores, their meticulous cross-examination completely dismantled the opponent's claim. Truly master strategists."
+              },
+              {
+                "id": 3,
+                "name": "Rajesh Kulkarni",
+                "role": "CEO, Matrix Health Ventures",
+                "image": "/client-rajesh.webp",
+                "rating": 5,
+                "quote": "Their corporate legal team drafted our cross-border agreements and steered our Series B funding through complex FDI regulations with impeccable precision.",
+                "text": "Their corporate legal team drafted our cross-border agreements and steered our Series B funding through complex FDI regulations with impeccable precision."
+              }
+            ]
+          }
+        }
+      },
+      "Reviews": {
+        "variants": {
+          "LawReviews1": {
+            "badge": "Testimonials",
+            "titleStart": "What Our",
+            "titleHighlight": "Clients Say",
+            "description": "Trusted by corporations, entrepreneurs, and institutions to resolve complex litigation.",
+            "items": [
+              {
+                "id": 1,
+                "name": "Siddharth Malhotra",
+                "location": "New Delhi, India",
+                "image": "/profile1.webp",
+                "rating": 5,
+                "text": "Veyra Legal secured an urgent interim stay from the High Court within 24 hours of filing. Their trial strategy and presence before the bench are extraordinary.",
+                "quote": "Veyra Legal secured an urgent interim stay from the High Court within 24 hours of filing. Their trial strategy and presence before the bench are extraordinary."
+              },
+              {
+                "id": 2,
+                "name": "Pooja Singhania",
+                "location": "New Delhi, India",
+                "image": "/profile2.webp",
+                "rating": 5,
+                "text": "In a multi-jurisdiction arbitration worth over ₹100 Crores, their meticulous cross-examination completely dismantled the opponent's claim. Truly master strategists.",
+                "quote": "In a multi-jurisdiction arbitration worth over ₹100 Crores, their meticulous cross-examination completely dismantled the opponent's claim. Truly master strategists."
+              },
+              {
+                "id": 3,
+                "name": "Rajesh Kulkarni",
+                "location": "New Delhi, India",
+                "image": "/profile3.webp",
+                "rating": 5,
+                "text": "Their corporate legal team drafted our cross-border agreements and steered our Series B funding through complex FDI regulations with impeccable precision.",
+                "quote": "Their corporate legal team drafted our cross-border agreements and steered our Series B funding through complex FDI regulations with impeccable precision."
+              }
+            ]
+          }
+        }
+      },
+      "Blog": {
+        "variants": {
+          "LawBlog1": {
+            "badge": "LEGAL INSIGHTS",
+            "titleStart": "Jurisprudence That Shapes",
+            "titleHighlight": "Corporate & Commercial Law",
+            "description": "Authoritative Analysis On Jurisprudence & Law",
+            "readMoreText": "Read Legal Brief",
+            "items": [
+              {
+                "date": "14",
+                "month": "Oct",
+                "year": "2026",
+                "category": "Arbitration",
+                "title": "Supreme Court Guidelines on Arbitration Enforceability: Key Takeaways",
+                "description": "A deep dive into recent appellate rulings on domestic and foreign arbitral award enforcement.",
+                "image": "/blog-arbitration.webp",
+                "href": "/legal-insights/supreme-court-guidelines-on-arbitration-enforceability-key-takeaways"
+              },
+              {
+                "date": "05",
+                "month": "Oct",
+                "year": "2026",
+                "category": "Litigation",
+                "title": "Emergency Injunctions & Stay Orders: Tactical Remedies in Commercial Breaches",
+                "description": "Strategic considerations for securing interim protective relief under Order 39 of the CPC and Section 9 of ACA.",
+                "image": "/blog-injunction.webp",
+                "href": "/legal-insights/emergency-injunctions-stay-orders-tactical-remedies-in-commercial-breaches"
+              },
+              {
+                "date": "26",
+                "month": "Sep",
+                "year": "2026",
+                "category": "Corporate",
+                "title": "Director Liabilities Under Companies Act & IBC: Mitigating Legal Exposure",
+                "description": "How independent and executive directors can safeguard against personal liability in corporate crises.",
+                "image": "/blog-directors.webp",
+                "href": "/legal-insights/director-liabilities-under-companies-act-ibc-mitigating-legal-exposure"
+              },
+              {
+                "date": "18",
+                "month": "Sep",
+                "year": "2026",
+                "category": "IPR",
+                "title": "Trademark Squatting & Domain Disputes: Defending Brand Equity in India",
+                "description": "Remedies against bad-faith trademark registrations and online intellectual property infringement.",
+                "image": "/blog-trademark.webp",
+                "href": "/legal-insights/trademark-squatting-domain-disputes-defending-brand-equity-in-india"
+              },
+              {
+                "date": "04",
+                "month": "Sep",
+                "year": "2026",
+                "category": "Litigation",
+                "title": "Commercial Courts Act: Accelerated Adjudication for High-Value Disputes",
+                "description": "Leveraging mandatory pre-institution mediation and summary judgment mechanisms.",
+                "image": "/blog-commercial-court.webp",
+                "href": "/legal-insights/commercial-courts-act-accelerated-adjudication-for-high-value-disputes"
+              },
+              {
+                "date": "22",
+                "month": "Aug",
+                "year": "2026",
+                "category": "Corporate",
+                "title": "Cross-Border Mergers & FDI Approvals: Navigating RBI & Competition Law",
+                "description": "Essential regulatory clearances, merger control filings, and foreign exchange compliance in inbound M&A.",
+                "image": "/blog-handshake.webp",
+                "href": "/legal-insights/cross-border-mergers-fdi-approvals-navigating-rbi-competition-law"
+              }
+            ],
+            "title": "Legal Insights &\nJurisprudence"
+          }
+        }
+      },
+      "BlogPage": {
+        "variants": {
+          "LawBlogPage1": {
+            "badge": "LEGAL INSIGHTS",
+            "titleStart": "Insights That Drive",
+            "titleHighlight": "Strategic Legal Decisions",
+            "description": "Authoritative Analysis On Jurisprudence & Law",
+            "readMoreText": "Read Brief",
+            "detailLink": "/legal-insights",
+            "items": [
+              {
+                "date": "14",
+                "month": "Oct",
+                "year": "2026",
+                "category": "Arbitration",
+                "title": "Supreme Court Guidelines on Arbitration Enforceability: Key Takeaways",
+                "description": "A deep dive into recent appellate rulings on domestic and foreign arbitral award enforcement.",
+                "image": "/blog-arbitration.webp",
+                "href": "/legal-insights/supreme-court-guidelines-on-arbitration-enforceability-key-takeaways"
+              },
+              {
+                "date": "05",
+                "month": "Oct",
+                "year": "2026",
+                "category": "Litigation",
+                "title": "Emergency Injunctions & Stay Orders: Tactical Remedies in Commercial Breaches",
+                "description": "Strategic considerations for securing interim protective relief under Order 39 of the CPC and Section 9 of ACA.",
+                "image": "/blog-injunction.webp",
+                "href": "/legal-insights/emergency-injunctions-stay-orders-tactical-remedies-in-commercial-breaches"
+              },
+              {
+                "date": "26",
+                "month": "Sep",
+                "year": "2026",
+                "category": "Corporate",
+                "title": "Director Liabilities Under Companies Act & IBC: Mitigating Legal Exposure",
+                "description": "How independent and executive directors can safeguard against personal liability in corporate crises.",
+                "image": "/blog-directors.webp",
+                "href": "/legal-insights/director-liabilities-under-companies-act-ibc-mitigating-legal-exposure"
+              },
+              {
+                "date": "18",
+                "month": "Sep",
+                "year": "2026",
+                "category": "IPR",
+                "title": "Trademark Squatting & Domain Disputes: Defending Brand Equity in India",
+                "description": "Remedies against bad-faith trademark registrations and online intellectual property infringement.",
+                "image": "/blog-trademark.webp",
+                "href": "/legal-insights/trademark-squatting-domain-disputes-defending-brand-equity-in-india"
+              },
+              {
+                "date": "04",
+                "month": "Sep",
+                "year": "2026",
+                "category": "Litigation",
+                "title": "Commercial Courts Act: Accelerated Adjudication for High-Value Disputes",
+                "description": "Leveraging mandatory pre-institution mediation and summary judgment mechanisms.",
+                "image": "/blog-commercial-court.webp",
+                "href": "/legal-insights/commercial-courts-act-accelerated-adjudication-for-high-value-disputes"
+              },
+              {
+                "date": "22",
+                "month": "Aug",
+                "year": "2026",
+                "category": "Corporate",
+                "title": "Cross-Border Mergers & FDI Approvals: Navigating RBI & Competition Law",
+                "description": "Essential regulatory clearances, merger control filings, and foreign exchange compliance in inbound M&A.",
+                "image": "/blog-handshake.webp",
+                "href": "/legal-insights/cross-border-mergers-fdi-approvals-navigating-rbi-competition-law"
+              }
+            ]
+          }
+        }
+      },
+      "BlogDetailContent": {
+        "variants": {
+          "LawBlogDetail1": {
+            "blogs": {
+              "supreme-court-guidelines-on-arbitration-enforceability-key-takeaways": {
+                "slug": "supreme-court-guidelines-on-arbitration-enforceability-key-takeaways",
+                "title": "Supreme Court Guidelines on Arbitration Enforceability: Key Takeaways",
+                "date": "14 Oct 2026",
+                "authorPrefix": "By",
+                "author": "Adv. Vikramaditya Singhania",
+                "category": "Arbitration",
+                "readTime": "5 Min Read",
+                "image": "/blog-arbitration.webp",
+                "imageAlt": "Supreme Court Guidelines on Arbitration Enforceability: Key Takeaways",
+                "heroImage": "/taraju-scales.webp",
+                "introduction": [
+                  "A comprehensive analysis of judicial precedents, statutory interpretations, and their operational implications for corporate boards and litigators.",
+                  "Our chambers routinely advise on complex multi-forum disputes, ensuring statutory compliance while safeguarding institutional rights."
+                ],
+                "sections": [
+                  {
+                    "heading": "1. Core Judicial Rationale",
+                    "paragraphs": [
+                      "The appellate bench emphasized that contractual terms must be given commercial efficacy, disallowing technical maneuvers to derail arbitral agreements.",
+                      "Parties engaging in high-stakes transactions must ensure dispute resolution clauses clearly designate seat, governing law, and pre-arbitral mediation protocols."
+                    ]
+                  },
+                  {
+                    "heading": "2. Strategic Implications for Commercial Litigants",
+                    "paragraphs": [
+                      "Filing timely interim protection applications before invoking arbitral references significantly fortifies asset preservation.",
+                      "Careful selection of arbitral rules and seat remains the primary defense against unwarranted jurisdictional challenges."
+                    ]
+                  }
+                ],
+                "quote": "Justice delayed is justice denied; meticulous trial preparation is the greatest safeguard of legal rights.",
+                "closing": "For strategic legal counsel or representation in high-stakes appellate and arbitral matters, consult Veyra Legal Chambers.",
+                "recentPosts": []
+              },
+              "emergency-injunctions-stay-orders-tactical-remedies-in-commercial-breaches": {
+                "slug": "emergency-injunctions-stay-orders-tactical-remedies-in-commercial-breaches",
+                "title": "Emergency Injunctions & Stay Orders: Tactical Remedies in Commercial Breaches",
+                "date": "05 Oct 2026",
+                "authorPrefix": "By",
+                "author": "Adv. Vikramaditya Singhania",
+                "category": "Litigation",
+                "readTime": "5 Min Read",
+                "image": "/blog-injunction.webp",
+                "imageAlt": "Emergency Injunctions & Stay Orders: Tactical Remedies in Commercial Breaches",
+                "heroImage": "/taraju-scales.webp",
+                "introduction": [
+                  "A comprehensive analysis of judicial precedents, statutory interpretations, and their operational implications for corporate boards and litigators.",
+                  "Our chambers routinely advise on complex multi-forum disputes, ensuring statutory compliance while safeguarding institutional rights."
+                ],
+                "sections": [
+                  {
+                    "heading": "1. Core Judicial Rationale",
+                    "paragraphs": [
+                      "The appellate bench emphasized that contractual terms must be given commercial efficacy, disallowing technical maneuvers to derail arbitral agreements.",
+                      "Parties engaging in high-stakes transactions must ensure dispute resolution clauses clearly designate seat, governing law, and pre-arbitral mediation protocols."
+                    ]
+                  },
+                  {
+                    "heading": "2. Strategic Implications for Commercial Litigants",
+                    "paragraphs": [
+                      "Filing timely interim protection applications before invoking arbitral references significantly fortifies asset preservation.",
+                      "Careful selection of arbitral rules and seat remains the primary defense against unwarranted jurisdictional challenges."
+                    ]
+                  }
+                ],
+                "quote": "Justice delayed is justice denied; meticulous trial preparation is the greatest safeguard of legal rights.",
+                "closing": "For strategic legal counsel or representation in high-stakes appellate and arbitral matters, consult Veyra Legal Chambers.",
+                "recentPosts": []
+              },
+              "director-liabilities-under-companies-act-ibc-mitigating-legal-exposure": {
+                "slug": "director-liabilities-under-companies-act-ibc-mitigating-legal-exposure",
+                "title": "Director Liabilities Under Companies Act & IBC: Mitigating Legal Exposure",
+                "date": "26 Sep 2026",
+                "authorPrefix": "By",
+                "author": "Adv. Vikramaditya Singhania",
+                "category": "Corporate",
+                "readTime": "5 Min Read",
+                "image": "/blog-directors.webp",
+                "imageAlt": "Director Liabilities Under Companies Act & IBC: Mitigating Legal Exposure",
+                "heroImage": "/taraju-scales.webp",
+                "introduction": [
+                  "A comprehensive analysis of judicial precedents, statutory interpretations, and their operational implications for corporate boards and litigators.",
+                  "Our chambers routinely advise on complex multi-forum disputes, ensuring statutory compliance while safeguarding institutional rights."
+                ],
+                "sections": [
+                  {
+                    "heading": "1. Core Judicial Rationale",
+                    "paragraphs": [
+                      "The appellate bench emphasized that contractual terms must be given commercial efficacy, disallowing technical maneuvers to derail arbitral agreements.",
+                      "Parties engaging in high-stakes transactions must ensure dispute resolution clauses clearly designate seat, governing law, and pre-arbitral mediation protocols."
+                    ]
+                  },
+                  {
+                    "heading": "2. Strategic Implications for Commercial Litigants",
+                    "paragraphs": [
+                      "Filing timely interim protection applications before invoking arbitral references significantly fortifies asset preservation.",
+                      "Careful selection of arbitral rules and seat remains the primary defense against unwarranted jurisdictional challenges."
+                    ]
+                  }
+                ],
+                "quote": "Justice delayed is justice denied; meticulous trial preparation is the greatest safeguard of legal rights.",
+                "closing": "For strategic legal counsel or representation in high-stakes appellate and arbitral matters, consult Veyra Legal Chambers.",
+                "recentPosts": []
+              },
+              "trademark-squatting-domain-disputes-defending-brand-equity-in-india": {
+                "slug": "trademark-squatting-domain-disputes-defending-brand-equity-in-india",
+                "title": "Trademark Squatting & Domain Disputes: Defending Brand Equity in India",
+                "date": "18 Sep 2026",
+                "authorPrefix": "By",
+                "author": "Adv. Vikramaditya Singhania",
+                "category": "IPR",
+                "readTime": "5 Min Read",
+                "image": "/blog-trademark.webp",
+                "imageAlt": "Trademark Squatting & Domain Disputes: Defending Brand Equity in India",
+                "heroImage": "/taraju-scales.webp",
+                "introduction": [
+                  "A comprehensive analysis of judicial precedents, statutory interpretations, and their operational implications for corporate boards and litigators.",
+                  "Our chambers routinely advise on complex multi-forum disputes, ensuring statutory compliance while safeguarding institutional rights."
+                ],
+                "sections": [
+                  {
+                    "heading": "1. Core Judicial Rationale",
+                    "paragraphs": [
+                      "The appellate bench emphasized that contractual terms must be given commercial efficacy, disallowing technical maneuvers to derail arbitral agreements.",
+                      "Parties engaging in high-stakes transactions must ensure dispute resolution clauses clearly designate seat, governing law, and pre-arbitral mediation protocols."
+                    ]
+                  },
+                  {
+                    "heading": "2. Strategic Implications for Commercial Litigants",
+                    "paragraphs": [
+                      "Filing timely interim protection applications before invoking arbitral references significantly fortifies asset preservation.",
+                      "Careful selection of arbitral rules and seat remains the primary defense against unwarranted jurisdictional challenges."
+                    ]
+                  }
+                ],
+                "quote": "Justice delayed is justice denied; meticulous trial preparation is the greatest safeguard of legal rights.",
+                "closing": "For strategic legal counsel or representation in high-stakes appellate and arbitral matters, consult Veyra Legal Chambers.",
+                "recentPosts": []
+              },
+              "commercial-courts-act-accelerated-adjudication-for-high-value-disputes": {
+                "slug": "commercial-courts-act-accelerated-adjudication-for-high-value-disputes",
+                "title": "Commercial Courts Act: Accelerated Adjudication for High-Value Disputes",
+                "date": "04 Sep 2026",
+                "authorPrefix": "By",
+                "author": "Adv. Vikramaditya Singhania",
+                "category": "Litigation",
+                "readTime": "5 Min Read",
+                "image": "/blog-commercial-court.webp",
+                "imageAlt": "Commercial Courts Act: Accelerated Adjudication for High-Value Disputes",
+                "heroImage": "/taraju-scales.webp",
+                "introduction": [
+                  "A comprehensive analysis of judicial precedents, statutory interpretations, and their operational implications for corporate boards and litigators.",
+                  "Our chambers routinely advise on complex multi-forum disputes, ensuring statutory compliance while safeguarding institutional rights."
+                ],
+                "sections": [
+                  {
+                    "heading": "1. Core Judicial Rationale",
+                    "paragraphs": [
+                      "The appellate bench emphasized that contractual terms must be given commercial efficacy, disallowing technical maneuvers to derail arbitral agreements.",
+                      "Parties engaging in high-stakes transactions must ensure dispute resolution clauses clearly designate seat, governing law, and pre-arbitral mediation protocols."
+                    ]
+                  },
+                  {
+                    "heading": "2. Strategic Implications for Commercial Litigants",
+                    "paragraphs": [
+                      "Filing timely interim protection applications before invoking arbitral references significantly fortifies asset preservation.",
+                      "Careful selection of arbitral rules and seat remains the primary defense against unwarranted jurisdictional challenges."
+                    ]
+                  }
+                ],
+                "quote": "Justice delayed is justice denied; meticulous trial preparation is the greatest safeguard of legal rights.",
+                "closing": "For strategic legal counsel or representation in high-stakes appellate and arbitral matters, consult Veyra Legal Chambers.",
+                "recentPosts": []
+              },
+              "cross-border-mergers-fdi-approvals-navigating-rbi-competition-law": {
+                "slug": "cross-border-mergers-fdi-approvals-navigating-rbi-competition-law",
+                "title": "Cross-Border Mergers & FDI Approvals: Navigating RBI & Competition Law",
+                "date": "22 Aug 2026",
+                "authorPrefix": "By",
+                "author": "Adv. Vikramaditya Singhania",
+                "category": "Corporate",
+                "readTime": "5 Min Read",
+                "image": "/blog-handshake.webp",
+                "imageAlt": "Cross-Border Mergers & FDI Approvals: Navigating RBI & Competition Law",
+                "heroImage": "/taraju-scales.webp",
+                "introduction": [
+                  "A comprehensive analysis of judicial precedents, statutory interpretations, and their operational implications for corporate boards and litigators.",
+                  "Our chambers routinely advise on complex multi-forum disputes, ensuring statutory compliance while safeguarding institutional rights."
+                ],
+                "sections": [
+                  {
+                    "heading": "1. Core Judicial Rationale",
+                    "paragraphs": [
+                      "The appellate bench emphasized that contractual terms must be given commercial efficacy, disallowing technical maneuvers to derail arbitral agreements.",
+                      "Parties engaging in high-stakes transactions must ensure dispute resolution clauses clearly designate seat, governing law, and pre-arbitral mediation protocols."
+                    ]
+                  },
+                  {
+                    "heading": "2. Strategic Implications for Commercial Litigants",
+                    "paragraphs": [
+                      "Filing timely interim protection applications before invoking arbitral references significantly fortifies asset preservation.",
+                      "Careful selection of arbitral rules and seat remains the primary defense against unwarranted jurisdictional challenges."
+                    ]
+                  }
+                ],
+                "quote": "Justice delayed is justice denied; meticulous trial preparation is the greatest safeguard of legal rights.",
+                "closing": "For strategic legal counsel or representation in high-stakes appellate and arbitral matters, consult Veyra Legal Chambers.",
+                "recentPosts": []
+              }
+            }
+          }
+        }
+      },
+      "Partners": {
+        "variants": {
+          "LawPartners1": {
+            "badge": "AFFILIATIONS & INSTITUTIONAL CLIENTS",
+            "titleStart": "Trusted by Leading",
+            "titleHighlight": "Corporations & Institutions",
+            "description": "We represent leading domestic and multinational corporations, financial institutions, and family offices.",
+            "items": [
+              {
+                "id": 1,
+                "name": "Supreme Court of India",
+                "image": "/partners/partner1.webp"
+              },
+              {
+                "id": 2,
+                "name": "Commercial Litigation",
+                "image": "/partners/partner2.webp"
+              },
+              {
+                "id": 3,
+                "name": "Corporate Law & M&A",
+                "image": "/partners/partner3.webp"
+              },
+              {
+                "id": 4,
+                "name": "International Arbitration",
+                "image": "/partners/partner4.webp"
+              },
+              {
+                "id": 5,
+                "name": "Intellectual Property & Patents",
+                "image": "/partners/partner5.webp"
+              },
+              {
+                "id": 6,
+                "name": "Insolvency & Bankruptcy (IBC)",
+                "image": "/partners/partner1.webp"
+              },
+              {
+                "id": 7,
+                "name": "White-Collar Crime Defense",
+                "image": "/partners/partner2.webp"
+              },
+              {
+                "id": 8,
+                "name": "Real Estate & Infrastructure Law",
+                "image": "/partners/partner3.webp"
+              },
+              {
+                "id": 9,
+                "name": "High Court Writs & Appeals",
+                "image": "/partners/partner4.webp"
+              },
+              {
+                "id": 10,
+                "name": "Banking & Financial Regulations",
+                "image": "/partners/partner5.webp"
+              }
+            ]
+          }
+        }
+      },
+      "Faq": {
+        "variants": {
+          "LawFaq1": {
+            "badge": "FREQUENTLY ASKED QUESTIONS",
+            "titleStart": "Clear Answers on",
+            "titleHighlight": "Chambers & Legal Representation",
+            "description": "Clear Answers &\nLegal Guidance",
+            "image": "/taraju-scales.webp",
+            "faqs": [
+              {
+                "id": 1,
+                "number": "01",
+                "question": "How do I schedule an initial confidential consultation?",
+                "answer": "You can submit an inquiry through our secure consultation portal or contact our chambers directly. All communications are immediately protected under statutory attorney-client privilege.",
+                "q": "How do I schedule an initial confidential consultation?",
+                "a": "You can submit an inquiry through our secure consultation portal or contact our chambers directly. All communications are immediately protected under statutory attorney-client privilege."
+              },
+              {
+                "id": 2,
+                "number": "02",
+                "question": "What fee structures and retainer models does Veyra Legal offer?",
+                "answer": "We offer transparent fee structures tailored to matter complexity — including fixed-fee advisory, staged trial retainers, and corporate monthly general counsel retainers with clear billing milestones.",
+                "q": "What fee structures and retainer models does Veyra Legal offer?",
+                "a": "We offer transparent fee structures tailored to matter complexity — including fixed-fee advisory, staged trial retainers, and corporate monthly general counsel retainers with clear billing milestones."
+              },
+              {
+                "id": 3,
+                "number": "03",
+                "question": "Do you represent clients across multiple High Courts and Tribunals?",
+                "answer": "Yes. Veyra Legal maintains active standing before the Supreme Court of India, multiple State High Courts, NCLT/NCLAT, NCDRC, APTEL, TDSAT, and institutional arbitration venues globally.",
+                "q": "Do you represent clients across multiple High Courts and Tribunals?",
+                "a": "Yes. Veyra Legal maintains active standing before the Supreme Court of India, multiple State High Courts, NCLT/NCLAT, NCDRC, APTEL, TDSAT, and institutional arbitration venues globally."
+              },
+              {
+                "id": 4,
+                "number": "04",
+                "question": "How does Veyra Legal protect client confidentiality and sensitive case data?",
+                "answer": "Under Section 126 of the Indian Evidence Act and Bar Council regulations, client data is strictly privileged. We deploy end-to-end encrypted digital case repositories and strict non-disclosure covenants.",
+                "q": "How does Veyra Legal protect client confidentiality and sensitive case data?",
+                "a": "Under Section 126 of the Indian Evidence Act and Bar Council regulations, client data is strictly privileged. We deploy end-to-end encrypted digital case repositories and strict non-disclosure covenants."
+              },
+              {
+                "id": 5,
+                "number": "05",
+                "question": "Can your chambers handle emergency stay orders and injunctions?",
+                "answer": "Yes. Our emergency litigation team is equipped for expedited petition drafting and same-day mentioning before vacation and regular benches for urgent protective orders.",
+                "q": "Can your chambers handle emergency stay orders and injunctions?",
+                "a": "Yes. Our emergency litigation team is equipped for expedited petition drafting and same-day mentioning before vacation and regular benches for urgent protective orders."
+              }
+            ],
+            "contact": {
+              "titleStart": "Facing an Urgent",
+              "titleHighlight": "Legal Matter?",
+              "description": "Speak directly with our advocates under strict statutory legal privilege.",
+              "phoneLabel": "Chambers Direct",
+              "phone": "+1 00000 00000",
+              "emailLabel": "Confidential Email",
+              "email": "info@xyz.com",
+              "chatLabel": "Urgent Desk",
+              "chatDescription": "24-hour turnaround for urgent court mentionings",
+              "buttonText": "Schedule Consultation",
+              "buttonLink": "/book-a-consultation"
+            },
+            "title": "Clear Answers &\nLegal Guidance"
+          }
+        }
+      },
+      "Team": {
+        "variants": {
+          "LawTeam1": {
+            "badge": "OUR SENIOR ADVOCATES & PARTNERS",
+            "titleStart": "Distinguished Legal Minds,",
+            "titleHighlight": "Proven Trial Advocates",
+            "description": "Distinguished Appellate Counsel & Strategic Legal Minds",
+            "profileButton": "View Credentials",
+            "items": [
+              {
+                "id": "01",
+                "name": "Adv. Vikramaditya Singhania",
+                "role": "Senior Managing Partner",
+                "specialty": "Supreme Court Appellate Defense",
+                "experience": "26+ Years",
+                "image": "/team-vikramaditya.webp",
+                "slug": "adv-vikramaditya-singhania",
+                "designation": "Managing Partner & Senior Advocate",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1200/1995)",
+                "bio": [
+                  "Adv. Vikramaditya Singhania has over 26+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Supreme Court Appellate Defense",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.vikramaditya.singhania@veyralegal.com",
+                "phone": "+91 98765 43210"
+              },
+              {
+                "id": "02",
+                "name": "Adv. Arundhati Roy-Chowdhury",
+                "role": "Senior Partner",
+                "specialty": "Commercial Litigation & Arbitration",
+                "experience": "23+ Years",
+                "image": "/hero-advocate.webp",
+                "slug": "adv-arundhati-roy-chowdhury",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1285/1998)",
+                "bio": [
+                  "Adv. Arundhati Roy-Chowdhury has over 23+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Commercial Litigation & Arbitration",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.arundhati.roy.chowdhury@veyralegal.com",
+                "phone": "+91 98765 43211"
+              },
+              {
+                "id": "03",
+                "name": "Adv. Kabir Merchant",
+                "role": "Partner",
+                "specialty": "IPR & White-Collar Crime Defense",
+                "experience": "19+ Years",
+                "image": "/team-kabir.webp",
+                "slug": "adv-kabir-merchant",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1370/2001)",
+                "bio": [
+                  "Adv. Kabir Merchant has over 19+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "IPR & White-Collar Crime Defense",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.kabir.merchant@veyralegal.com",
+                "phone": "+91 98765 43212"
+              },
+              {
+                "id": "04",
+                "name": "Adv. Meera Swaminathan",
+                "role": "Senior Counsel",
+                "specialty": "Corporate Restructuring & Insolvency (IBC)",
+                "experience": "21+ Years",
+                "image": "/barrister-advocate.webp",
+                "slug": "adv-meera-swaminathan",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1455/2004)",
+                "bio": [
+                  "Adv. Meera Swaminathan has over 21+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Corporate Restructuring & Insolvency (IBC)",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.meera.swaminathan@veyralegal.com",
+                "phone": "+91 98765 43213"
+              },
+              {
+                "id": "05",
+                "name": "Adv. Devendra Verma",
+                "role": "Partner",
+                "specialty": "International Commercial Arbitration",
+                "experience": "18+ Years",
+                "image": "/team-rohan.webp",
+                "slug": "adv-devendra-verma",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1540/2007)",
+                "bio": [
+                  "Adv. Devendra Verma has over 18+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "International Commercial Arbitration",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.devendra.verma@veyralegal.com",
+                "phone": "+91 98765 43214"
+              },
+              {
+                "id": "06",
+                "name": "Adv. Ananya Sengupta",
+                "role": "Partner",
+                "specialty": "M&A, Corporate & Regulatory Advisory",
+                "experience": "16+ Years",
+                "image": "/team-ananya.webp",
+                "slug": "adv-ananya-sengupta",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1625/2010)",
+                "bio": [
+                  "Adv. Ananya Sengupta has over 16+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "M&A, Corporate & Regulatory Advisory",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.ananya.sengupta@veyralegal.com",
+                "phone": "+91 98765 43215"
+              },
+              {
+                "id": "07",
+                "name": "Adv. Siddharth Malhotra",
+                "role": "Senior Counsel",
+                "specialty": "Banking, Capital Markets & SEBI Laws",
+                "experience": "20+ Years",
+                "image": "/team-sidharth.webp",
+                "slug": "adv-siddharth-malhotra",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1710/2013)",
+                "bio": [
+                  "Adv. Siddharth Malhotra has over 20+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Banking, Capital Markets & SEBI Laws",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.siddharth.malhotra@veyralegal.com",
+                "phone": "+91 98765 43216"
+              },
+              {
+                "id": "08",
+                "name": "Adv. Tara Deshmukh",
+                "role": "Partner",
+                "specialty": "Constitutional Law & High Court Writs",
+                "experience": "17+ Years",
+                "image": "/team-priya.webp",
+                "slug": "adv-tara-deshmukh",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1795/2016)",
+                "bio": [
+                  "Adv. Tara Deshmukh has over 17+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Constitutional Law & High Court Writs",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.tara.deshmukh@veyralegal.com",
+                "phone": "+91 98765 43217"
+              }
+            ],
+            "title": "Senior Advocates &\nAppellate Counsel"
+          }
+        }
+      },
+      "TeamProfileContent": {
+        "variants": {
+          "LawTeamProfile1": {
+            "members": {
+              "adv-vikramaditya-singhania": {
+                "id": "01",
+                "name": "Adv. Vikramaditya Singhania",
+                "role": "Senior Managing Partner",
+                "specialty": "Supreme Court Appellate Defense",
+                "experience": "26+ Years",
+                "image": "/team-vikramaditya.webp",
+                "slug": "adv-vikramaditya-singhania",
+                "designation": "Managing Partner & Senior Advocate",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1200/1995)",
+                "bio": [
+                  "Adv. Vikramaditya Singhania has over 26+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Supreme Court Appellate Defense",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.vikramaditya.singhania@veyralegal.com",
+                "phone": "+91 98765 43210"
+              },
+              "adv-arundhati-roy-chowdhury": {
+                "id": "02",
+                "name": "Adv. Arundhati Roy-Chowdhury",
+                "role": "Senior Partner",
+                "specialty": "Commercial Litigation & Arbitration",
+                "experience": "23+ Years",
+                "image": "/hero-advocate.webp",
+                "slug": "adv-arundhati-roy-chowdhury",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1285/1998)",
+                "bio": [
+                  "Adv. Arundhati Roy-Chowdhury has over 23+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Commercial Litigation & Arbitration",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.arundhati.roy.chowdhury@veyralegal.com",
+                "phone": "+91 98765 43211"
+              },
+              "adv-kabir-merchant": {
+                "id": "03",
+                "name": "Adv. Kabir Merchant",
+                "role": "Partner",
+                "specialty": "IPR & White-Collar Crime Defense",
+                "experience": "19+ Years",
+                "image": "/team-kabir.webp",
+                "slug": "adv-kabir-merchant",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1370/2001)",
+                "bio": [
+                  "Adv. Kabir Merchant has over 19+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "IPR & White-Collar Crime Defense",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.kabir.merchant@veyralegal.com",
+                "phone": "+91 98765 43212"
+              },
+              "adv-meera-swaminathan": {
+                "id": "04",
+                "name": "Adv. Meera Swaminathan",
+                "role": "Senior Counsel",
+                "specialty": "Corporate Restructuring & Insolvency (IBC)",
+                "experience": "21+ Years",
+                "image": "/barrister-advocate.webp",
+                "slug": "adv-meera-swaminathan",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1455/2004)",
+                "bio": [
+                  "Adv. Meera Swaminathan has over 21+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Corporate Restructuring & Insolvency (IBC)",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.meera.swaminathan@veyralegal.com",
+                "phone": "+91 98765 43213"
+              },
+              "adv-devendra-verma": {
+                "id": "05",
+                "name": "Adv. Devendra Verma",
+                "role": "Partner",
+                "specialty": "International Commercial Arbitration",
+                "experience": "18+ Years",
+                "image": "/team-rohan.webp",
+                "slug": "adv-devendra-verma",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1540/2007)",
+                "bio": [
+                  "Adv. Devendra Verma has over 18+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "International Commercial Arbitration",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.devendra.verma@veyralegal.com",
+                "phone": "+91 98765 43214"
+              },
+              "adv-ananya-sengupta": {
+                "id": "06",
+                "name": "Adv. Ananya Sengupta",
+                "role": "Partner",
+                "specialty": "M&A, Corporate & Regulatory Advisory",
+                "experience": "16+ Years",
+                "image": "/team-ananya.webp",
+                "slug": "adv-ananya-sengupta",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1625/2010)",
+                "bio": [
+                  "Adv. Ananya Sengupta has over 16+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "M&A, Corporate & Regulatory Advisory",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.ananya.sengupta@veyralegal.com",
+                "phone": "+91 98765 43215"
+              },
+              "adv-siddharth-malhotra": {
+                "id": "07",
+                "name": "Adv. Siddharth Malhotra",
+                "role": "Senior Counsel",
+                "specialty": "Banking, Capital Markets & SEBI Laws",
+                "experience": "20+ Years",
+                "image": "/team-sidharth.webp",
+                "slug": "adv-siddharth-malhotra",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1710/2013)",
+                "bio": [
+                  "Adv. Siddharth Malhotra has over 20+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Banking, Capital Markets & SEBI Laws",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.siddharth.malhotra@veyralegal.com",
+                "phone": "+91 98765 43216"
+              },
+              "adv-tara-deshmukh": {
+                "id": "08",
+                "name": "Adv. Tara Deshmukh",
+                "role": "Partner",
+                "specialty": "Constitutional Law & High Court Writs",
+                "experience": "17+ Years",
+                "image": "/team-priya.webp",
+                "slug": "adv-tara-deshmukh",
+                "designation": "Senior Advocate & Appellate Counsel",
+                "barCouncil": "Bar Council of Delhi (Enrollment: D/1795/2016)",
+                "bio": [
+                  "Adv. Tara Deshmukh has over 17+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+                  "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+                ],
+                "practiceAreas": [
+                  "Constitutional Law & High Court Writs",
+                  "Supreme Court Appellate Practice",
+                  "Arbitration & Conciliation",
+                  "Constitutional Writs"
+                ],
+                "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+                "email": "adv.tara.deshmukh@veyralegal.com",
+                "phone": "+91 98765 43217"
+              }
+            }
+          }
+        }
+      },
+      "Portfolio": {
+        "variants": {
+          "LawPortfolio1": {
+            "badge": "LANDMARK REPRESENTATIONS",
+            "titleStart": "Landmark Verdicts &",
+            "titleHighlight": "Arbitral Awards",
+            "description": "Precedent-Setting Outcomes Across Appellate Benches",
+            "categories": [
+              "All",
+              "Corporate",
+              "Litigation",
+              "Arbitration",
+              "IPR"
+            ],
+            "items": [
+              {
+                "title": "Cross-Border Tech Merger Antitrust Clearance",
+                "cat": "Corporate",
+                "result": "₹450 Cr Deal Approved",
+                "image": "/case-merger.webp"
+              },
+              {
+                "title": "International ICC Commercial Arbitration Award",
+                "cat": "Arbitration",
+                "result": "₹95 Cr Award Secured",
+                "image": "/case-arbitration.webp"
+              },
+              {
+                "title": "High Court Injunction in Patent Infringement",
+                "cat": "IPR",
+                "result": "Ex-Parte Stay Granted",
+                "image": "/case-patent.webp"
+              },
+              {
+                "title": "NCLT Complex Corporate Insolvency Resolution",
+                "cat": "Insolvency",
+                "result": "Resolution Approved",
+                "image": "/case-insolvency.webp"
+              },
+              {
+                "title": "Supreme Court Landmark Constitutional Writ",
+                "cat": "Litigation",
+                "result": "Quashed Impugned Order",
+                "image": "/case-appellate.webp"
+              },
+              {
+                "title": "Commercial Mega-Infrastructure Title Defense",
+                "cat": "Real Estate",
+                "result": "Freehold Title Upheld",
+                "image": "/case-infrastructure.webp"
+              },
+              {
+                "title": "White-Collar Corporate Defense & Enforcement Relief",
+                "cat": "Defense",
+                "result": "Proceedings Dismissed",
+                "image": "/case-whitecollar.webp"
+              },
+              {
+                "title": "Cross-Border Energy JV & Strategic Concession",
+                "cat": "Corporate",
+                "result": "Regulatory Sanction Obtained",
+                "image": "/case-jointventure.webp"
+              }
+            ],
+            "title": "Landmark Verdicts &\nAppellate Outcomes"
+          }
+        }
+      },
+      "PrivacyPolicy": {
+        "variants": {
+          "LawPrivacyPolicy1": {
+            "badge": "Confidentiality & Statutory Privilege",
+            "titleStart": "Attorney-Client",
+            "titleHighlight": "Statutory Privilege",
+            "description": "At Veyra Legal, we maintain absolute confidentiality under the Indian Evidence Act and Advocates Act, 1961.",
+            "policies": [
+              {
+                "id": "01",
+                "title": "Information We Collect",
+                "content": "We collect only the details you provide (name, organization, telephone, email, and preliminary matter summary) to evaluate conflict of interest and coordinate consultations. We do not sell or monetize client data."
+              },
+              {
+                "id": "02",
+                "title": "Statutory Legal Privilege",
+                "content": "Communications shared in contemplation of legal representation are safeguarded under Section 126 of the Indian Evidence Act, 1872."
+              },
+              {
+                "id": "03",
+                "title": "Non-Disclosure & Data Security",
+                "content": "Briefs, pleadings, case notes, and confidential documents are encrypted at rest and in transit."
+              },
+              {
+                "id": "04",
+                "title": "Bar Council of India Compliance",
+                "content": "This website is strictly an informational medium under the BCI Rules, not an advertisement or solicitation."
+              }
+            ],
+            "contactTitle": "Contact Chambers",
+            "contactDescription": "For confidentiality inquiries or formal representations, contact our administrative office.",
+            "email": "info@xyz.com",
+            "phone": "+1 00000 00000",
+            "address": "Suite 4500, 1221 Avenue of the Americas, Rockefeller Center, New York, NY 10020, United States"
+          }
+        }
+      },
+      "ContactFormContent": {
+        "variants": {
+          "LawContactForm1": {
+            "formBadge": "CONFIDENTIAL BRIEF INTAKE",
+            "formTitleStart": "Initiate a",
+            "formTitleHighlight": "Consultation",
+            "formDescription": "Briefs submitted are reviewed within statutory confidentiality standards.",
+            "namePlaceholder": "Full Name / Organization *",
+            "emailPlaceholder": "Confidential Email *",
+            "phonePlaceholder": "Mobile / Telephone *",
+            "interestPlaceholder": "Select Practice Area",
+            "interestOptions": [
+              {
+                "value": "corporate-commercial-law",
+                "label": "Corporate & Commercial Law"
+              },
+              {
+                "value": "commercial-litigation",
+                "label": "Commercial Litigation"
+              },
+              {
+                "value": "arbitration-dispute-resolution",
+                "label": "Arbitration & Dispute Resolution"
+              },
+              {
+                "value": "intellectual-property-rights",
+                "label": "Intellectual Property Rights"
+              },
+              {
+                "value": "insolvency-bankruptcy-ibc",
+                "label": "Insolvency & Bankruptcy (IBC)"
+              },
+              {
+                "value": "real-estate-infrastructure",
+                "label": "Real Estate & Infrastructure"
+              }
+            ],
+            "messagePlaceholder": "Brief summary of legal matter, forum/court, or urgency...",
+            "submitText": "Send Confidential Message",
+            "contactBadge": "CHAMBERS DIRECTORY",
+            "contactTitleStart": "Reach Our",
+            "contactTitleHighlight": "Chambers",
+            "contactDescription": "Connect directly with our advocates and consultation desk.",
+            "callTitle": "Chambers Direct",
+            "phone": "+1 00000 00000",
+            "phoneHref": "tel:+10000000000",
+            "callHours": "Mon - Sat: 9:00 AM - 7:00 PM (IST)",
+            "emailTitle": "Chambers Email",
+            "email": "info@xyz.com",
+            "emailHref": "mailto:info@xyz.com",
+            "emailResponse": "Matters reviewed within 24 hours.",
+            "officeTitle": "Chambers Address",
+            "addressLines": [
+              "Suite 4500, 1221 Avenue of the Americas, Rockefeller Center, New York, NY 10020, United States"
+            ],
+            "officeHours": "Chambers open Mon - Sat, 9:00 AM - 7:00 PM",
+            "supportTitle": "Urgent Court Mentionings",
+            "supportDescription": "24/7 hotline for emergency stay applications and bail hearings.",
+            "supportButtonText": "Call Emergency Desk"
+          }
+        }
+      },
+      "ConsultationContent": {
+        "variants": {
+          "LawConsultation1": {
+            "badge": "Schedule Consultation",
+            "titleStart": "Schedule a",
+            "titleHighlight": "Confidential Consultation",
+            "description": "Submit your matter brief. A Senior Advocate will review your case facts under complete attorney-client privilege and schedule a strategic consultation.",
+            "services": [
+              "Corporate & Commercial Law",
+              "Commercial Litigation",
+              "Arbitration & Dispute Resolution",
+              "Intellectual Property Rights",
+              "Insolvency & Bankruptcy (IBC)",
+              "Real Estate & Infrastructure"
+            ],
+            "image": "/hero-advocate.webp",
+            "budgets": [
+              "Retainer Advisory",
+              "Urgent Court Matter",
+              "Commercial Arbitration",
+              "Corporate Transaction / M&A"
+            ],
+            "timelines": [
+              "Immediate (Within 24-48h)",
+              "This Week",
+              "Within a month",
+              "Long-Term Retainer"
+            ],
+            "title": "Privileged Counsel,\nStrict Confidence"
+          }
+        }
+      },
+      "ThankYouContent": {
+        "variants": {
+          "LawThankYou1": {
+            "title": "Consultation Request Received",
+            "text": "Your matter brief has been securely routed to our senior counsel chambers. We will contact you within 24 working hours under complete legal confidentiality.",
+            "button": "Return To Home",
+            "href": "/",
+            "nextSteps": [
+              {
+                "n": "01",
+                "title": "Privileged Review",
+                "text": "A Senior Advocate reviews your case brief under strict confidentiality within hours.",
+                "image": "/portfolio-tax.webp"
+              },
+              {
+                "n": "02",
+                "title": "Strategic Consultation",
+                "text": "We conduct an in-depth strategy session to evaluate legal merits and multi-forum options.",
+                "image": "/portfolio-contract.webp"
+              },
+              {
+                "n": "03",
+                "title": "Action Roadmap",
+                "text": "A decisive, fixed-fee representation proposal and procedural roadmap is finalized.",
+                "image": "/portfolio-roadmap.webp"
+              }
+            ]
+          }
+        }
+      },
+      "SiteChromeContent": {
+        "variants": {
+          "LawSiteChrome1": {
+            "logo": "/logo.webp",
+            "logoIcon": "/logo-icon.webp",
+            "brandName": "Veyra Legal",
+            "tagline": "Advocates & Legal Consultants",
+            "phone": "+1 00000 00000",
+            "email": "info@xyz.com",
+            "address": "Suite 4500, 1221 Avenue of the Americas, Rockefeller Center, New York, NY 10020, United States",
+            "socials": [
+              {
+                "label": "LinkedIn",
+                "href": "https://www.linkedin.com/"
+              },
+              {
+                "label": "Facebook",
+                "href": "https://www.facebook.com/"
+              },
+              {
+                "label": "Instagram",
+                "href": "https://www.instagram.com/"
+              },
+              {
+                "label": "YouTube",
+                "href": "https://www.youtube.com/"
+              }
+            ],
+            "header": {
+              "navigation": {
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About",
+                    "href": "/who-we-are"
+                  },
+                  {
+                    "label": "Practice Areas",
+                    "href": "/practice-areas"
+                  },
+                  {
+                    "label": "Our Team",
+                    "href": "/team"
+                  },
+                  {
+                    "label": "Legal Insights",
+                    "href": "/legal-insights"
+                  },
+                  {
+                    "label": "FAQ",
+                    "href": "/faq"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              "phone": "+1 00000 00000",
+              "email": "info@xyz.com",
+              "socials": [
+                {
+                  "label": "LinkedIn",
+                  "href": "https://www.linkedin.com/"
+                },
+                {
+                  "label": "Facebook",
+                  "href": "https://www.facebook.com/"
+                },
+                {
+                  "label": "Instagram",
+                  "href": "https://www.instagram.com/"
+                },
+                {
+                  "label": "YouTube",
+                  "href": "https://www.youtube.com/"
+                }
+              ]
+            },
+            "footer": {
+              "about": "Veyra Legal Advocates & Legal Consultants is a premier full-service law firm dedicated to fearless courtroom advocacy, strategic corporate counsel, international dispute resolution, and high-stakes legal advisory across Indian appellate courts and arbitral tribunals.",
+              "links": [
+                {
+                  "label": "Home",
+                  "href": "/"
+                },
+                {
+                  "label": "About",
+                  "href": "/who-we-are"
+                },
+                {
+                  "label": "Practice Areas",
+                  "href": "/practice-areas"
+                },
+                {
+                  "label": "Our Team",
+                  "href": "/team"
+                },
+                {
+                  "label": "Landmark Cases",
+                  "href": "/landmark-cases"
+                },
+                {
+                  "label": "Legal Insights",
+                  "href": "/legal-insights"
+                },
+                {
+                  "label": "FAQ",
+                  "href": "/faq"
+                },
+                {
+                  "label": "Contact",
+                  "href": "/contact"
+                }
+              ],
+              "legal": [
+                {
+                  "label": "Privacy Policy",
+                  "href": "/privacy-policy"
+                },
+                {
+                  "label": "Terms & Conditions",
+                  "href": "/terms"
+                },
+                {
+                  "label": "Sitemap",
+                  "href": "/sitemap"
+                },
+                {
+                  "label": "Schedule Consultation",
+                  "href": "/book-a-consultation"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Cta": {
+        "variants": {
+          "LawCta1": {
+            "title": "Formidable Advocacy &\nCorporate Counsel",
+            "text": "Consult with our Senior Advocates under complete attorney-client privilege. We evaluate your brief and formulate a decisive strategic roadmap.",
+            "primary": {
+              "label": "Schedule Consultation",
+              "href": "/book-a-consultation"
+            },
+            "secondary": {
+              "label": "Call Chambers Directly",
+              "href": "tel:+10000000000"
+            },
+            "image": "/blog-trademark.webp"
+          }
+        }
+      },
+      "Marquee": {
+        "variants": {
+          "LawMarquee1": [
+            "Supreme Court of India",
+            "Commercial Litigation",
+            "Corporate Law & M&A",
+            "International Arbitration",
+            "Intellectual Property & Patents",
+            "Insolvency & Bankruptcy (IBC)",
+            "White-Collar Crime Defense",
+            "Real Estate & Infrastructure Law",
+            "High Court Writs & Appeals",
+            "Banking & Financial Regulations"
+          ]
+        }
+      },
+      "Gallery": {
+        "variants": {
+          "LawGallery1": {
+            "eyebrow": "Chambers & Courtroom Archives",
+            "title": "Chambers Heritage &\nCourt Legacy",
+            "items": [
+              {
+                "src": "/gallery-1.webp",
+                "label": "Supreme Court Bench Chambers",
+                "span": "sm:col-span-2 sm:row-span-2"
+              },
+              {
+                "src": "/gallery-2.webp",
+                "label": "Barakhamba Law Library",
+                "span": ""
+              },
+              {
+                "src": "/gallery-3.webp",
+                "label": "Arbitration Hearing Hall",
+                "span": ""
+              },
+              {
+                "src": "/portfolio-corporate.webp",
+                "label": "Lex Tower Chambers",
+                "span": "sm:col-span-2"
+              }
+            ]
+          }
+        }
+      },
+      "PhotoStrip": {
+        "variants": {
+          "LawPhotoStrip1": [
+            {
+              "src": "/photostrip-1.webp",
+              "label": "High Court Colonnade"
+            },
+            {
+              "src": "/photostrip-2.webp",
+              "label": "Corporate Legal Chambers"
+            },
+            {
+              "src": "/photostrip-3.webp",
+              "label": "Constitutional Jurisprudence"
+            },
+            {
+              "src": "/photostrip-4.webp",
+              "label": "Appellate Courtroom Bench"
+            },
+            {
+              "src": "/photostrip-5.webp",
+              "label": "Digital Governance Room"
+            },
+            {
+              "src": "/photostrip-6.webp",
+              "label": "International Arbitral Hall"
+            }
+          ]
+        }
+      },
+      "Timeline": {
+        "variants": {
+          "LawTimeline1": {
+            "eyebrow": "Our Heritage",
+            "title": "Twenty-Five Years of\nLegal Precedents",
+            "items": [
+              {
+                "year": "2001",
+                "title": "The Chambers Founded",
+                "text": "Established as an appellate advocacy chamber handling commercial and civil disputes.",
+                "image": "/timeline-1.webp"
+              },
+              {
+                "year": "2007",
+                "title": "Supreme Court Practice",
+                "text": "Secured permanent standing and landmark reported rulings before the Supreme Court of India.",
+                "image": "/timeline-2.webp"
+              },
+              {
+                "year": "2013",
+                "title": "Corporate & M&A Division",
+                "text": "Expanded dedicated corporate transactional advisory for cross-border joint ventures.",
+                "image": "/timeline-3.webp"
+              },
+              {
+                "year": "2018",
+                "title": "Arbitration Center of Excellence",
+                "text": "Formed specialized institutional arbitration practice handling SIAC, ICC, and domestic tribunals.",
+                "image": "/timeline-4.webp"
+              },
+              {
+                "year": "2022",
+                "title": "Insolvency & IPR Chambers",
+                "text": "Launched specialized NCLT corporate turnaround and intellectual property enforcement desks.",
+                "image": "/timeline-5.webp"
+              },
+              {
+                "year": "2026",
+                "title": "Veyra Legal National Standing",
+                "text": "Recognized as a premier full-service law firm protecting corporate and constitutional rights nationwide.",
+                "image": "/portfolio-corporate.webp"
+              }
+            ]
+          }
+        }
+      },
+      "Industries": {
+        "variants": {
+          "LawIndustries1": {
+            "eyebrow": "Sectors Represented",
+            "title": "Legal Counsel Across\nKey Industries",
+            "list": [
+              "Technology & AI",
+              "Banking & Financial Institutions",
+              "Infrastructure & Energy",
+              "Healthcare & Pharmaceuticals",
+              "Real Estate & Hospitality",
+              "Manufacturing & Heavy Industry",
+              "Media, IP & Entertainment",
+              "E-Commerce & Digital Commerce",
+              "Aviation & Maritime Logistics",
+              "High-Net-Worth Family Offices"
+            ]
+          }
+        }
+      },
+      "Band": {
+        "variants": {
+          "LawBand1": {
+            "image": "/taraju-scales.webp",
+            "quote": "Justice in the life and conduct of the State is possible only as first it resides in the hearts of the citizens.",
+            "by": "Plato — Legal Jurisprudence"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "site": {
+      "name": "Veyra Legal",
+      "short": "Veyra Legal",
+      "tagline": "Advocates & Legal Consultants",
+      "logo": "/logo.webp",
+      "logoIcon": "/logo-icon.webp",
+      "phone": "+1 00000 00000",
+      "email": "info@xyz.com",
+      "address": "Suite 4500, 1221 Avenue of the Americas, Rockefeller Center, New York, NY 10020, United States",
+      "socials": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "label": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "label": "YouTube",
+          "href": "https://www.youtube.com/"
+        }
+      ]
+    },
+    "nav": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Who We Are",
+        "href": "/who-we-are"
+      },
+      {
+        "label": "Practice Areas",
+        "href": "/practice-areas"
+      },
+      {
+        "label": "Our Team",
+        "href": "/team"
+      },
+      {
+        "label": "Legal Insights",
+        "href": "/legal-insights"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "footer": {
+      "about": "Veyra Legal Advocates & Legal Consultants is a premier full-service law firm dedicated to fearless courtroom advocacy, strategic corporate counsel, international dispute resolution, and high-stakes legal advisory across Indian appellate courts and arbitral tribunals.",
+      "links": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Who We Are",
+          "href": "/who-we-are"
+        },
+        {
+          "label": "Practice Areas",
+          "href": "/practice-areas"
+        },
+        {
+          "label": "Our Team",
+          "href": "/team"
+        },
+        {
+          "label": "Landmark Cases",
+          "href": "/landmark-cases"
+        },
+        {
+          "label": "Legal Insights",
+          "href": "/legal-insights"
+        },
+        {
+          "label": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "legal": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy-policy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/terms"
+        },
+        {
+          "label": "Sitemap",
+          "href": "/sitemap"
+        },
+        {
+          "label": "Schedule Consultation",
+          "href": "/book-a-consultation"
+        }
+      ]
+    },
+    "pageHeads": {
+      "about": {
+        "title": "Who We Are",
+        "crumb": "Who We Are",
+        "image": "/portfolio-books.webp"
+      },
+      "services": {
+        "title": "Our Practice Areas",
+        "crumb": "Practice Areas",
+        "image": "/portfolio-books.webp"
+      },
+      "team": {
+        "title": "Our Senior Advocates",
+        "crumb": "Our Team",
+        "image": "/portfolio-books.webp"
+      },
+      "portfolio": {
+        "title": "Landmark Representations",
+        "crumb": "Landmark Cases",
+        "image": "/portfolio-books.webp"
+      },
+      "blog": {
+        "title": "Legal Insights",
+        "crumb": "Legal Insights",
+        "image": "/portfolio-books.webp"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "crumb": "FAQ",
+        "image": "/portfolio-books.webp"
+      },
+      "contact": {
+        "title": "Contact Our Chambers",
+        "crumb": "Contact Chambers",
+        "image": "/portfolio-books.webp"
+      },
+      "quote": {
+        "title": "Schedule Consultation",
+        "crumb": "Consultation",
+        "image": "/portfolio-books.webp"
+      }
+    },
+    "hero": {
+      "eyebrow": "Advocates & Legal Consultants",
+      "words": [
+        "Justice.",
+        "Advocacy.",
+        "Mastery.",
+        "In",
+        "Law."
+      ],
+      "description": "Formidable courtroom advocacy, high-stakes commercial litigation, and strategic corporate legal counsel — delivered with relentless dedication and proven jurisprudence before federal appellate benches and arbitral tribunals.",
+      "primaryCta": {
+        "label": "Schedule Consultation",
+        "href": "/book-a-consultation"
+      },
+      "secondaryCta": {
+        "label": "Our Practice Areas",
+        "href": "/practice-areas"
+      },
+      "image": "/taraju-scales.webp",
+      "floatImage": "/hero-advocate.webp",
+      "badge": {
+        "value": "25+",
+        "label": "Years of Trial Excellence"
+      },
+      "rotating": [
+        "Supreme Court Litigation",
+        "Corporate & M&A Advisory",
+        "Commercial Arbitration",
+        "Intellectual Property Rights",
+        "Insolvency & Bankruptcy (IBC)",
+        "White-Collar Crime Defense"
+      ]
+    },
+    "marquee": [
+      "Supreme Court of India",
+      "Commercial Litigation",
+      "Corporate Law & M&A",
+      "International Arbitration",
+      "Intellectual Property & Patents",
+      "Insolvency & Bankruptcy (IBC)",
+      "White-Collar Crime Defense",
+      "Real Estate & Infrastructure Law",
+      "High Court Writs & Appeals",
+      "Banking & Financial Regulations"
+    ],
+    "stats": [
+      {
+        "value": 1850,
+        "suffix": "+",
+        "label": "Cases Represented"
+      },
+      {
+        "value": 25,
+        "suffix": "+",
+        "label": "Years Experience"
+      },
+      {
+        "value": 98,
+        "suffix": "%",
+        "label": "Favorable Verdicts"
+      },
+      {
+        "value": 1500,
+        "suffix": " Cr+",
+        "label": "Dispute Value Handled"
+      }
+    ],
+    "about": {
+      "eyebrow": "Who We Are",
+      "title": "Unyielding Justice &\nStrategic Counsel",
+      "text": [
+        "Veyra Legal is a premier full-service law firm of Advocates & Legal Consultants providing formidable representation before the Supreme Court of India, High Courts, and Arbitral Tribunals worldwide — combining decades of appellate advocacy with sharp corporate acumen to resolve high-stakes disputes with precision and uncompromising confidentiality."
+      ],
+      "image": "/about-chambers.webp",
+      "image2": "/team-vikramaditya.webp",
+      "points": [
+        "Bar Council of India certified Senior Advocates",
+        "Supreme Court & High Court appellate standing",
+        "Strict attorney-client privilege & confidentiality",
+        "Transparent legal retainers & fixed-fee advisory"
+      ],
+      "mission": [
+        {
+          "title": "Our Mission",
+          "text": "Champion our clients' constitutional, commercial, and personal rights through rigorous legal craft, incisive advocacy, and ethical integrity."
+        },
+        {
+          "title": "Our Vision",
+          "text": "To stand as the most authoritative and trusted law firm, setting the standard for courtroom excellence and client-first advocacy."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Our Practice Areas",
+      "title": "Legal Counsel &\nCourtroom Defense",
+      "items": [
+        {
+          "icon": "Building2",
+          "title": "Corporate & Commercial Law",
+          "text": "Strategic M&A, cross-border joint ventures, regulatory compliance, contract drafting, and corporate governance for enterprises.",
+          "image": "/practice-corporate.webp"
+        },
+        {
+          "icon": "Gavel",
+          "title": "Commercial Litigation",
+          "text": "Tenacious trial advocacy before the Supreme Court, High Courts, and Commercial Courts for high-stakes business disputes.",
+          "image": "/practice-litigation.webp"
+        },
+        {
+          "icon": "Scale",
+          "title": "Arbitration & Dispute Resolution",
+          "text": "Domestic and international commercial arbitration under SIAC, ICC, LCIA, and the Arbitration & Conciliation Act.",
+          "image": "/practice-arbitration.webp"
+        },
+        {
+          "icon": "Award",
+          "title": "Intellectual Property Rights",
+          "text": "Trademark prosecution, patent defense, copyright enforcement, trade secrets protection, and anti-counterfeiting injunctions.",
+          "image": "/practice-ip.webp"
+        },
+        {
+          "icon": "Landmark",
+          "title": "Insolvency & Bankruptcy (IBC)",
+          "text": "NCLT and NCLAT representation, debt restructuring, creditor rights defense, and Corporate Insolvency Resolution Processes (CIRP).",
+          "image": "/practice-ibc.webp"
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Real Estate & Infrastructure",
+          "text": "High-value property title diligence, RERA litigation, project structuring, construction dispute claims, and FDI regulatory approvals.",
+          "image": "/practice-real-estate.webp"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Our Legal Methodology",
+      "title": "Rigorous Preparation,\nDecisive Results",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Confidential Consultation",
+          "text": "In-depth case appraisal protected by strict statutory attorney-client legal privilege.",
+          "image": "/process-step-1.webp"
+        },
+        {
+          "n": "02",
+          "title": "Jurisprudential Strategy",
+          "text": "Exhaustive precedent research, statutory dissection, and multi-tier forum selection.",
+          "image": "/process-step-2.webp"
+        },
+        {
+          "n": "03",
+          "title": "Pleadings & Discovery",
+          "text": "Flawless drafting of writ petitions, plaints, rejoinders, and comprehensive evidence compilation.",
+          "image": "/process-step-3.webp"
+        },
+        {
+          "n": "04",
+          "title": "Tenacious Trial Advocacy",
+          "text": "Persuasive courtroom oral arguments, incisive cross-examination, and decree enforcement.",
+          "image": "/process-step-4.webp"
+        }
+      ]
+    },
+    "portfolio": {
+      "eyebrow": "Landmark Representations",
+      "title": "Landmark Verdicts &\nAppellate Outcomes",
+      "categories": [
+        "All",
+        "Corporate",
+        "Litigation",
+        "Arbitration",
+        "IPR"
+      ],
+      "items": [
+        {
+          "title": "Cross-Border Tech Merger Antitrust Clearance",
+          "cat": "Corporate",
+          "result": "₹450 Cr Deal Approved",
+          "image": "/case-merger.webp"
+        },
+        {
+          "title": "International ICC Commercial Arbitration Award",
+          "cat": "Arbitration",
+          "result": "₹95 Cr Award Secured",
+          "image": "/case-arbitration.webp"
+        },
+        {
+          "title": "High Court Injunction in Patent Infringement",
+          "cat": "IPR",
+          "result": "Ex-Parte Stay Granted",
+          "image": "/case-patent.webp"
+        },
+        {
+          "title": "NCLT Complex Corporate Insolvency Resolution",
+          "cat": "Insolvency",
+          "result": "Resolution Approved",
+          "image": "/case-insolvency.webp"
+        },
+        {
+          "title": "Supreme Court Landmark Constitutional Writ",
+          "cat": "Litigation",
+          "result": "Quashed Impugned Order",
+          "image": "/case-appellate.webp"
+        },
+        {
+          "title": "Commercial Mega-Infrastructure Title Defense",
+          "cat": "Real Estate",
+          "result": "Freehold Title Upheld",
+          "image": "/case-infrastructure.webp"
+        },
+        {
+          "title": "White-Collar Corporate Defense & Enforcement Relief",
+          "cat": "Defense",
+          "result": "Proceedings Dismissed",
+          "image": "/case-whitecollar.webp"
+        },
+        {
+          "title": "Cross-Border Energy JV & Strategic Concession",
+          "cat": "Corporate",
+          "result": "Regulatory Sanction Obtained",
+          "image": "/case-jointventure.webp"
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Our Senior Advocates & Partners",
+      "title": "Senior Advocates &\nAppellate Counsel",
+      "members": [
+        {
+          "id": "01",
+          "name": "Adv. Vikramaditya Singhania",
+          "role": "Senior Managing Partner",
+          "specialty": "Supreme Court Appellate Defense",
+          "experience": "26+ Years",
+          "image": "/team-vikramaditya.webp",
+          "slug": "adv-vikramaditya-singhania",
+          "designation": "Managing Partner & Senior Advocate",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1200/1995)",
+          "bio": [
+            "Adv. Vikramaditya Singhania has over 26+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "Supreme Court Appellate Defense",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.vikramaditya.singhania@veyralegal.com",
+          "phone": "+91 98765 43210"
+        },
+        {
+          "id": "02",
+          "name": "Adv. Arundhati Roy-Chowdhury",
+          "role": "Senior Partner",
+          "specialty": "Commercial Litigation & Arbitration",
+          "experience": "23+ Years",
+          "image": "/hero-advocate.webp",
+          "slug": "adv-arundhati-roy-chowdhury",
+          "designation": "Senior Advocate & Appellate Counsel",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1285/1998)",
+          "bio": [
+            "Adv. Arundhati Roy-Chowdhury has over 23+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "Commercial Litigation & Arbitration",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.arundhati.roy.chowdhury@veyralegal.com",
+          "phone": "+91 98765 43211"
+        },
+        {
+          "id": "03",
+          "name": "Adv. Kabir Merchant",
+          "role": "Partner",
+          "specialty": "IPR & White-Collar Crime Defense",
+          "experience": "19+ Years",
+          "image": "/team-kabir.webp",
+          "slug": "adv-kabir-merchant",
+          "designation": "Senior Advocate & Appellate Counsel",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1370/2001)",
+          "bio": [
+            "Adv. Kabir Merchant has over 19+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "IPR & White-Collar Crime Defense",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.kabir.merchant@veyralegal.com",
+          "phone": "+91 98765 43212"
+        },
+        {
+          "id": "04",
+          "name": "Adv. Meera Swaminathan",
+          "role": "Senior Counsel",
+          "specialty": "Corporate Restructuring & Insolvency (IBC)",
+          "experience": "21+ Years",
+          "image": "/barrister-advocate.webp",
+          "slug": "adv-meera-swaminathan",
+          "designation": "Senior Advocate & Appellate Counsel",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1455/2004)",
+          "bio": [
+            "Adv. Meera Swaminathan has over 21+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "Corporate Restructuring & Insolvency (IBC)",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.meera.swaminathan@veyralegal.com",
+          "phone": "+91 98765 43213"
+        },
+        {
+          "id": "05",
+          "name": "Adv. Devendra Verma",
+          "role": "Partner",
+          "specialty": "International Commercial Arbitration",
+          "experience": "18+ Years",
+          "image": "/team-rohan.webp",
+          "slug": "adv-devendra-verma",
+          "designation": "Senior Advocate & Appellate Counsel",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1540/2007)",
+          "bio": [
+            "Adv. Devendra Verma has over 18+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "International Commercial Arbitration",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.devendra.verma@veyralegal.com",
+          "phone": "+91 98765 43214"
+        },
+        {
+          "id": "06",
+          "name": "Adv. Ananya Sengupta",
+          "role": "Partner",
+          "specialty": "M&A, Corporate & Regulatory Advisory",
+          "experience": "16+ Years",
+          "image": "/team-ananya.webp",
+          "slug": "adv-ananya-sengupta",
+          "designation": "Senior Advocate & Appellate Counsel",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1625/2010)",
+          "bio": [
+            "Adv. Ananya Sengupta has over 16+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "M&A, Corporate & Regulatory Advisory",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.ananya.sengupta@veyralegal.com",
+          "phone": "+91 98765 43215"
+        },
+        {
+          "id": "07",
+          "name": "Adv. Siddharth Malhotra",
+          "role": "Senior Counsel",
+          "specialty": "Banking, Capital Markets & SEBI Laws",
+          "experience": "20+ Years",
+          "image": "/team-sidharth.webp",
+          "slug": "adv-siddharth-malhotra",
+          "designation": "Senior Advocate & Appellate Counsel",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1710/2013)",
+          "bio": [
+            "Adv. Siddharth Malhotra has over 20+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "Banking, Capital Markets & SEBI Laws",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.siddharth.malhotra@veyralegal.com",
+          "phone": "+91 98765 43216"
+        },
+        {
+          "id": "08",
+          "name": "Adv. Tara Deshmukh",
+          "role": "Partner",
+          "specialty": "Constitutional Law & High Court Writs",
+          "experience": "17+ Years",
+          "image": "/team-priya.webp",
+          "slug": "adv-tara-deshmukh",
+          "designation": "Senior Advocate & Appellate Counsel",
+          "barCouncil": "Bar Council of Delhi (Enrollment: D/1795/2016)",
+          "bio": [
+            "Adv. Tara Deshmukh has over 17+ Years of trial and appellate advocacy experience before the Supreme Court of India, High Courts, and commercial tribunals.",
+            "Renowned for strategic courtroom representation, jurisprudential depth, and cross-examination precision in landmark commercial, constitutional, and arbitration disputes."
+          ],
+          "practiceAreas": [
+            "Constitutional Law & High Court Writs",
+            "Supreme Court Appellate Practice",
+            "Arbitration & Conciliation",
+            "Constitutional Writs"
+          ],
+          "education": "LL.M. (Commercial Law), National Law School of India | LL.B., Delhi University",
+          "email": "adv.tara.deshmukh@veyralegal.com",
+          "phone": "+91 98765 43217"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Client Representations",
+      "title": "Client Voices &\nExecutive Trust",
+      "items": [
+        {
+          "name": "Siddharth Malhotra",
+          "role": "General Counsel, Zenith Global Technologies",
+          "text": "Veyra Legal secured an urgent interim stay from the High Court within 24 hours of filing. Their trial strategy and presence before the bench are extraordinary.",
+          "image": "/client-siddharth.webp"
+        },
+        {
+          "name": "Pooja Singhania",
+          "role": "Managing Director, Apex InfraCorp",
+          "text": "In a multi-jurisdiction arbitration worth over ₹100 Crores, their meticulous cross-examination completely dismantled the opponent's claim. Truly master strategists.",
+          "image": "/client-pooja.webp"
+        },
+        {
+          "name": "Rajesh Kulkarni",
+          "role": "CEO, Matrix Health Ventures",
+          "text": "Their corporate legal team drafted our cross-border agreements and steered our Series B funding through complex FDI regulations with impeccable precision.",
+          "image": "/client-rajesh.webp"
+        }
+      ]
+    },
+    "blog": {
+      "eyebrow": "Legal Insights",
+      "title": "Legal Insights &\nJurisprudence",
+      "posts": [
+        {
+          "title": "Arbitration Enforceability & Rulings",
+          "date": "14 Oct 2026",
+          "read": "6 min",
+          "tag": "Arbitration",
+          "image": "/blog-arbitration.webp",
+          "excerpt": "A deep dive into recent appellate rulings on domestic and foreign arbitral award enforcement.",
+          "body": [
+            "Enforcing an arbitral award swiftly is the cornerstone of commercial dispute resolution in India. Recent landmark jurisprudence from the Supreme Court has significantly narrowed the scope of judicial interference under Section 34 of the Arbitration and Conciliation Act.",
+            "Courts have reiterated that patent illegality must go to the root of the matter and cannot merely be an erroneous interpretation of contractual clauses. This gives immense comfort to commercial entities seeking rapid execution.",
+            "Our Chambers recommend crafting dispute resolution clauses with unambiguous seat and venue designations, institutional rules, and expedited arbitrator appointment mechanisms to prevent pre-arbitral delays.",
+            "When initiating arbitration or challenging an award, meticulous framing of grounds under the amended legal framework is essential to withstand summary dismissal."
+          ]
+        },
+        {
+          "title": "Emergency Injunctions & Stay Remedies",
+          "date": "05 Oct 2026",
+          "read": "5 min",
+          "tag": "Litigation",
+          "image": "/blog-injunction.webp",
+          "excerpt": "Strategic considerations for securing interim protective relief under Order 39 of the CPC and Section 9 of ACA.",
+          "body": [
+            "In fast-moving commercial transactions, waiting for a final decree often renders victory pyrrhic. Securing an ex-parte interim injunction or freezing order preserves the res and prevents irreparable harm.",
+            "The three-pronged test — prima facie case, balance of convenience, and irreparable injury — demands flawless evidentiary packaging at the threshold. Pleading suppression or vague assertions guarantees denial.",
+            "Whether seeking restraint on bank guarantee invocation, asset alienation, or trademark infringement, timing and territorial jurisdiction dictate success.",
+            "Veyra Legal maintains an emergency injunction desk prepared for same-day drafting, mentioning, and urgent court hearings across appellate jurisdictions."
+          ]
+        },
+        {
+          "title": "Director Liabilities in Corporate Crisis",
+          "date": "26 Sep 2026",
+          "read": "7 min",
+          "tag": "Corporate",
+          "image": "/blog-directors.webp",
+          "excerpt": "How independent and executive directors can safeguard against personal liability in corporate crises.",
+          "body": [
+            "With heightened regulatory scrutiny from MCA, SEBI, and SFIO, the veil of corporate personality is increasingly tested during insolvency or corporate default.",
+            "Section 166 of the Companies Act codifies fiduciary duties, while Section 66 of the IBC empowers resolution professionals to pursue directors for fraudulent or wrongful trading.",
+            "Independent directors must ensure dissenting opinions are recorded in board minutes and that robust internal compliance frameworks are independently audited.",
+            "Our corporate advisory practice assists boards in implementing governance protocols and navigating safe-harbor defenses before regulatory proceedings commence."
+          ]
+        },
+        {
+          "title": "Trademark Squatting & Brand Rights",
+          "date": "18 Sep 2026",
+          "read": "4 min",
+          "tag": "IPR",
+          "image": "/blog-trademark.webp",
+          "excerpt": "Remedies against bad-faith trademark registrations and online intellectual property infringement.",
+          "body": [
+            "In the digital economy, brand reputation is an enterprise's most vulnerable asset. Cybersquatting and bad-faith trademark registrations can paralyze market expansion.",
+            "Under the Trade Marks Act, prior user rights prevail over subsequent registrations. Prompt filing of rectification petitions before the High Court and UDRP domain disputes provides decisive recourse.",
+            "Anton Piller and John Doe (Ashok Kumar) orders remain the most potent legal weapons to raid counterfeit warehouses and take down unauthorized digital storefronts.",
+            "Veyra Legal represents international and domestic rights holders in aggressive anti-counterfeiting enforcement and multi-class portfolio protection."
+          ]
+        },
+        {
+          "title": "Commercial Courts & Expedited Relief",
+          "date": "04 Sep 2026",
+          "read": "6 min",
+          "tag": "Litigation",
+          "image": "/blog-commercial-court.webp",
+          "excerpt": "Leveraging mandatory pre-institution mediation and summary judgment mechanisms.",
+          "body": [
+            "The Commercial Courts Act transformed commercial dispute resolution by imposing strict procedural timelines, mandatory pre-institution mediation, and summary judgment under Order XIII-A.",
+            "For disputes exceeding the specified value threshold, pleadings must strictly comply with statement of truth and disclosure rules. A delayed written statement beyond 120 days forfeits the defense entirely.",
+            "Understanding these non-negotiable statutory timelines allows plaintiffs to apply decisive pressure and expedite summary decrees without protracted trial delays.",
+            "Veyra Legal structures commercial litigation to maximize speed, leveraging summary hearings to eliminate frivolous defenses at the earliest stage."
+          ]
+        },
+        {
+          "title": "Cross-Border M&A & FDI Approvals",
+          "date": "22 Aug 2026",
+          "read": "8 min",
+          "tag": "Corporate",
+          "image": "/blog-handshake.webp",
+          "excerpt": "Essential regulatory clearances, merger control filings, and foreign exchange compliance in inbound M&A.",
+          "body": [
+            "Cross-border acquisitions into India require harmony between FEMA regulations, RBI reporting, DPIIT press notes, and Competition Commission of India (CCI) merger thresholds.",
+            "Structuring deal documents — including conditions precedent, indemnity escrows, and representations and warranties — requires deep insight into regulatory enforceability.",
+            "Recent amendments to national security screening and beneficial ownership rules under Press Note 3 demand rigorous supply-chain and investor-origin due diligence.",
+            "Our transactional team conducts exhaustive legal due diligence, drafts airtight SPA/SHAs, and represents clients through statutory clearance procedures."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Frequently Asked Questions",
+      "title": "Clear Answers &\nLegal Guidance",
+      "items": [
+        {
+          "q": "How do I schedule an initial confidential consultation?",
+          "a": "You can submit an inquiry through our secure consultation portal or contact our chambers directly. All communications are immediately protected under statutory attorney-client privilege."
+        },
+        {
+          "q": "What fee structures and retainer models does Veyra Legal offer?",
+          "a": "We offer transparent fee structures tailored to matter complexity — including fixed-fee advisory, staged trial retainers, and corporate monthly general counsel retainers with clear billing milestones."
+        },
+        {
+          "q": "Do you represent clients across multiple High Courts and Tribunals?",
+          "a": "Yes. Veyra Legal maintains active standing before the Supreme Court of India, multiple State High Courts, NCLT/NCLAT, NCDRC, APTEL, TDSAT, and institutional arbitration venues globally."
+        },
+        {
+          "q": "How does Veyra Legal protect client confidentiality and sensitive case data?",
+          "a": "Under Section 126 of the Indian Evidence Act and Bar Council regulations, client data is strictly privileged. We deploy end-to-end encrypted digital case repositories and strict non-disclosure covenants."
+        },
+        {
+          "q": "Can your chambers handle emergency stay orders and injunctions?",
+          "a": "Yes. Our emergency litigation team is equipped for expedited petition drafting and same-day mentioning before vacation and regular benches for urgent protective orders."
+        }
+      ],
+      "image": "/banner-lady-justice.webp"
+    },
+    "cta": {
+      "title": "Formidable Advocacy &\nCorporate Counsel",
+      "text": "Consult with our Senior Advocates under complete attorney-client privilege. We evaluate your brief and formulate a decisive strategic roadmap.",
+      "primary": {
+        "label": "Schedule Consultation",
+        "href": "/book-a-consultation"
+      },
+      "secondary": {
+        "label": "Call Chambers Directly",
+        "href": "tel:+10000000000"
+      },
+      "image": "/blog-trademark.webp"
+    },
+    "whyUs": {
+      "eyebrow": "Why Veyra Legal",
+      "title": "A Formidable Edge in\nCourt & Boardroom",
+      "tiles": [
+        {
+          "big": "24h",
+          "title": "Emergency Injunctions",
+          "text": "Rapid drafting and same-day filing of urgent stay orders and protective interim relief.",
+          "tone": "dark",
+          "image": "/taraju-scales.webp"
+        },
+        {
+          "big": "100%",
+          "title": "Trial Preparation",
+          "text": "Exhaustive legal research, moot simulations, and evidence scrutiny before every appearance.",
+          "tone": "gold",
+          "image": "/portfolio-contract.webp"
+        },
+        {
+          "big": "Top 1%",
+          "title": "Appellate Standing",
+          "text": "Seasoned advocates with decades of permanent standing before High Courts and Supreme Court.",
+          "tone": "light",
+          "image": "/portfolio-books.webp"
+        },
+        {
+          "big": "100%",
+          "title": "Privileged & Confidential",
+          "text": "Absolute attorney-client privilege protected under law with end-to-end encrypted case vaults.",
+          "tone": "light",
+          "image": "/portfolio-tax.webp"
+        }
+      ]
+    },
+    "timeline": {
+      "eyebrow": "Our Heritage",
+      "title": "Twenty-Five Years of\nLegal Precedents",
+      "items": [
+        {
+          "year": "2001",
+          "title": "The Chambers Founded",
+          "text": "Established as an appellate advocacy chamber handling commercial and civil disputes.",
+          "image": "/timeline-1.webp"
+        },
+        {
+          "year": "2007",
+          "title": "Supreme Court Practice",
+          "text": "Secured permanent standing and landmark reported rulings before the Supreme Court of India.",
+          "image": "/timeline-2.webp"
+        },
+        {
+          "year": "2013",
+          "title": "Corporate & M&A Division",
+          "text": "Expanded dedicated corporate transactional advisory for cross-border joint ventures.",
+          "image": "/timeline-3.webp"
+        },
+        {
+          "year": "2018",
+          "title": "Arbitration Center of Excellence",
+          "text": "Formed specialized institutional arbitration practice handling SIAC, ICC, and domestic tribunals.",
+          "image": "/timeline-4.webp"
+        },
+        {
+          "year": "2022",
+          "title": "Insolvency & IPR Chambers",
+          "text": "Launched specialized NCLT corporate turnaround and intellectual property enforcement desks.",
+          "image": "/timeline-5.webp"
+        },
+        {
+          "year": "2026",
+          "title": "Veyra Legal National Standing",
+          "text": "Recognized as a premier full-service law firm protecting corporate and constitutional rights nationwide.",
+          "image": "/portfolio-corporate.webp"
+        }
+      ]
+    },
+    "industries": {
+      "eyebrow": "Sectors Represented",
+      "title": "Legal Counsel Across\nKey Industries",
+      "list": [
+        "Technology & AI",
+        "Banking & Financial Institutions",
+        "Infrastructure & Energy",
+        "Healthcare & Pharmaceuticals",
+        "Real Estate & Hospitality",
+        "Manufacturing & Heavy Industry",
+        "Media, IP & Entertainment",
+        "E-Commerce & Digital Commerce",
+        "Aviation & Maritime Logistics",
+        "High-Net-Worth Family Offices"
+      ]
+    },
+    "serviceDetails": {
+      "corporate-commercial-law": {
+        "overview": "Veyra Legal delivers comprehensive corporate legal advisory, guiding founders, multinational enterprises, and private equity funds through high-stakes mergers, cross-border joint ventures, and intricate regulatory frameworks. We craft contracts that shield businesses from commercial vulnerabilities while facilitating accelerated growth.",
+        "features": [
+          "Mergers & Acquisitions (M&A) structuring and closing",
+          "Drafting Share Purchase (SPA), Shareholders (SHA) & JV Agreements",
+          "FDI, FEMA, and Reserve Bank of India regulatory compliance",
+          "Corporate governance, board compliance & directors' liability",
+          "Commercial contract negotiation & cross-border trade agreements",
+          "Regulatory antitrust review & Competition Commission (CCI) clearances"
+        ],
+        "benefits": [
+          {
+            "title": "Risk Insulation",
+            "text": "Airtight covenants and indemnities that anticipate regulatory and partner disputes."
+          },
+          {
+            "title": "Strategic Dealmaking",
+            "text": "Commercial acumen aligned with rapid corporate execution and antitrust clearances."
+          },
+          {
+            "title": "Regulatory Harmony",
+            "text": "Seamless compliance across MCA, RBI, SEBI, and Competition Commission guidelines."
+          }
+        ],
+        "steps": [
+          "Deal Structuring & Due Diligence",
+          "Agreement Drafting & Negotiation",
+          "Regulatory Filing & Clearances",
+          "Closing & Post-Merger Integration"
+        ],
+        "faq": [
+          {
+            "q": "What is the typical timeframe for resolving matters in this practice area?",
+            "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+          },
+          {
+            "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+            "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+          }
+        ]
+      },
+      "commercial-litigation": {
+        "overview": "Our courtroom advocates represent corporations, financial institutions, and high-net-worth individuals in complex commercial disputes before the Supreme Court of India, High Courts, and Commercial Courts. We combine deep evidentiary mastery with commanding oral advocacy to secure decisive verdicts.",
+        "features": [
+          "Supreme Court Special Leave Petitions (SLP) & Writ Petitions",
+          "High Court commercial suits, appeals, and revision applications",
+          "Emergency interim injunctions and ex-parte stay orders",
+          "Shareholder disputes, oppression & mismanagement petitions",
+          "Enforcement of domestic decrees and foreign court judgments",
+          "Commercial summary judgments and expedited execution proceedings"
+        ],
+        "benefits": [
+          {
+            "title": "Relentless Advocacy",
+            "text": "Distinguished oral advocacy backed by meticulous precedent research."
+          },
+          {
+            "title": "Rapid Interim Relief",
+            "text": "Emergency injunction capabilities to protect assets and business continuity."
+          },
+          {
+            "title": "Multi-Forum Strategy",
+            "text": "Coordinated defense across civil, criminal, and appellate benches."
+          }
+        ],
+        "steps": [
+          "Brief Appraisal & Strategy",
+          "Flawless Pleadings & Evidence Filing",
+          "Urgent Mentioning & Interim Relief",
+          "Trial, Arguments & Decree Enforcement"
+        ],
+        "faq": [
+          {
+            "q": "What is the typical timeframe for resolving matters in this practice area?",
+            "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+          },
+          {
+            "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+            "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+          }
+        ]
+      },
+      "arbitration-dispute-resolution": {
+        "overview": "Veyra Legal boasts a dedicated arbitration practice handling domestic and cross-border commercial arbitrations under institutional frameworks including SIAC, ICC, LCIA, and the Indian Arbitration & Conciliation Act. We resolve intricate contractual disputes with speed, confidentiality, and commercial precision.",
+        "features": [
+          "Domestic and international commercial arbitration representation",
+          "Section 9 interim relief and Section 11 arbitrator appointments",
+          "Section 34 challenge and Section 36 enforcement of arbitral awards",
+          "Bespoke dispute resolution clause drafting & forum selection",
+          "Commercial mediation and structured settlement negotiations",
+          "Emergency arbitrator proceedings and multi-tier institutional advocacy"
+        ],
+        "benefits": [
+          {
+            "title": "Strict Confidentiality",
+            "text": "Disputes settled discreetly away from public court dockets."
+          },
+          {
+            "title": "Cross-Border Standing",
+            "text": "Proven track record across leading international arbitration seats."
+          },
+          {
+            "title": "Enforceable Awards",
+            "text": "Tenacious execution and asset attachment under domestic and foreign laws."
+          }
+        ],
+        "steps": [
+          "Dispute Notice & Section 9 Relief",
+          "Arbitral Tribunal Constitution",
+          "Statement of Claim & Evidentiary Discovery",
+          "Arbitral Award & Post-Award Execution"
+        ],
+        "faq": [
+          {
+            "q": "What is the typical timeframe for resolving matters in this practice area?",
+            "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+          },
+          {
+            "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+            "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+          }
+        ]
+      },
+      "intellectual-property-rights": {
+        "overview": "We safeguard brand identity, patent assets, and creative works across all phases of intellectual property lifecycle — from registration and trademark prosecution to aggressive infringement litigation, John Doe Anton Piller raids, and domain dispute arbitration.",
+        "features": [
+          "Trademark search, filing, opposition, and portfolio management",
+          "Patent prosecution, prior-art analysis, and infringement defense",
+          "Copyright registration and licensing for tech & media assets",
+          "Ex-parte Anton Piller search & seizure orders for counterfeit goods",
+          "Trade secret protection covenants and non-compete agreements",
+          "IP licensing, technology transfer agreements & domain dispute arbitration"
+        ],
+        "benefits": [
+          {
+            "title": "Asset Protection",
+            "text": "Defending core brand equity and proprietary technology from infringement."
+          },
+          {
+            "title": "Swift Injunctions",
+            "text": "Immediate restraining orders against counterfeiters and trademark squatters."
+          },
+          {
+            "title": "Commercial Monetization",
+            "text": "Robust IP licensing and franchising legal agreements."
+          }
+        ],
+        "steps": [
+          "IP Audit & Clearance Search",
+          "Filing & Prosecution with Registries",
+          "Opposition & Rectification Proceedings",
+          "Courtroom Injunction & Enforcement"
+        ],
+        "faq": [
+          {
+            "q": "What is the typical timeframe for resolving matters in this practice area?",
+            "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+          },
+          {
+            "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+            "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+          }
+        ]
+      },
+      "insolvency-bankruptcy-ibc": {
+        "overview": "Our insolvency specialists provide commanding representation before the National Company Law Tribunal (NCLT) and Appellate Tribunal (NCLAT). We represent financial creditors, operational creditors, corporate debtors, and resolution applicants through complex corporate insolvency resolution processes (CIRP).",
+        "features": [
+          "Section 7, 9, and 10 IBC applications before NCLT benches",
+          "Representation before the National Company Law Appellate Tribunal (NCLAT)",
+          "Resolution Applicant bidding, plan drafting, and CIRP advisory",
+          "Creditor Committee (CoC) legal representation & debt restructuring",
+          "Avoidance applications (preferential, undervalued, extortionate, fraudulent)",
+          "Liquidation advisory, asset auctions & cross-border insolvency claims"
+        ],
+        "benefits": [
+          {
+            "title": "Maximum Recovery",
+            "text": "Assertive legal mechanisms to maximize asset recovery for creditors."
+          },
+          {
+            "title": "Turnaround Strategy",
+            "text": "Guiding resolution applicants to acquire distressed assets cleanly."
+          },
+          {
+            "title": "Tribunal Standing",
+            "text": "Frequent appearances before NCLT benches nationwide."
+          }
+        ],
+        "steps": [
+          "Demand Notice & Default Documentation",
+          "NCLT Petition Filing & Admission",
+          "Committee of Creditors (CoC) Advisory",
+          "Resolution Plan Approval / Liquidation"
+        ],
+        "faq": [
+          {
+            "q": "What is the typical timeframe for resolving matters in this practice area?",
+            "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+          },
+          {
+            "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+            "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+          }
+        ]
+      },
+      "real-estate-infrastructure": {
+        "overview": "Veyra Legal counsels real estate developers, institutional funds, and landowners on high-value land acquisitions, title due diligence, RERA compliance, and infrastructure construction disputes. We ensure transparent title certification and aggressive representation in property litigation.",
+        "features": [
+          "Comprehensive 30-year title search, vetting, and certification",
+          "Drafting Joint Development Agreements (JDA) & long-term leases",
+          "Real Estate Regulatory Authority (RERA) complaints & appeals",
+          "Construction contract disputes (EPC, FIDIC) & delayed delivery claims",
+          "Zoning, land use conversion, and environmental clearance compliance",
+          "Commercial leasing, mortgage perfection & infrastructure land acquisition"
+        ],
+        "benefits": [
+          {
+            "title": "Defect-Free Title",
+            "text": "Exhaustive due diligence that eliminates hidden encumbrances."
+          },
+          {
+            "title": "RERA Protection",
+            "text": "Unrivaled expertise before RERA authorities and appellate tribunals."
+          },
+          {
+            "title": "Project Security",
+            "text": "Structuring joint ventures that withstand market fluctuations."
+          }
+        ],
+        "steps": [
+          "Title Search & Encumbrance Review",
+          "Structuring JDA & Conveyance Deeds",
+          "RERA & Regulatory Approvals",
+          "Litigation Defense & Dispute Settlement"
+        ],
+        "faq": [
+          {
+            "q": "What is the typical timeframe for resolving matters in this practice area?",
+            "a": "Timelines depend on forum pendency, interim relief applications, and whether the matter proceeds through expedited commercial arbitration or High Court trials."
+          },
+          {
+            "q": "How does Veyra Legal handle statutory legal privilege and confidentiality?",
+            "a": "All briefings, draft pleadings, and discussions are strictly protected under Section 126 of the Indian Evidence Act, 1872 and Bar Council norms."
+          }
+        ]
+      }
+    },
+    "quote": {
+      "eyebrow": "Schedule Consultation",
+      "title": "Privileged Counsel,\nStrict Confidence",
+      "text": "Submit your matter brief. A Senior Advocate will review your case facts under complete attorney-client privilege and schedule a strategic consultation.",
+      "services": [
+        "Corporate & Commercial Law",
+        "Commercial Litigation",
+        "Arbitration & Dispute Resolution",
+        "Intellectual Property Rights",
+        "Insolvency & Bankruptcy (IBC)",
+        "Real Estate & Infrastructure"
+      ],
+      "image": "/consultation-chambers.webp"
+    },
+    "thanks": {
+      "title": "Consultation Request Received",
+      "text": "Your matter brief has been securely routed to our senior counsel chambers. We will contact you within 24 working hours under complete legal confidentiality.",
+      "button": "Return To Home",
+      "href": "/"
+    },
+    "nextSteps": [
+      {
+        "n": "01",
+        "title": "Privileged Review",
+        "text": "A Senior Advocate reviews your case brief under strict confidentiality within hours.",
+        "image": "/portfolio-tax.webp"
+      },
+      {
+        "n": "02",
+        "title": "Strategic Consultation",
+        "text": "We conduct an in-depth strategy session to evaluate legal merits and multi-forum options.",
+        "image": "/portfolio-contract.webp"
+      },
+      {
+        "n": "03",
+        "title": "Action Roadmap",
+        "text": "A decisive, fixed-fee representation proposal and procedural roadmap is finalized.",
+        "image": "/portfolio-roadmap.webp"
+      }
+    ],
+    "budgets": [
+      "Retainer Advisory",
+      "Urgent Court Matter",
+      "Commercial Arbitration",
+      "Corporate Transaction / M&A"
+    ],
+    "timelines": [
+      "Immediate (Within 24-48h)",
+      "This Week",
+      "Within a month",
+      "Long-Term Retainer"
+    ],
+    "gallery": {
+      "eyebrow": "Chambers & Courtroom Archives",
+      "title": "Chambers Heritage &\nCourt Legacy",
+      "items": [
+        {
+          "src": "/gallery-1.webp",
+          "label": "Supreme Court Bench Chambers",
+          "span": "sm:col-span-2 sm:row-span-2"
+        },
+        {
+          "src": "/gallery-2.webp",
+          "label": "Barakhamba Law Library",
+          "span": ""
+        },
+        {
+          "src": "/gallery-3.webp",
+          "label": "Arbitration Hearing Hall",
+          "span": ""
+        },
+        {
+          "src": "/portfolio-corporate.webp",
+          "label": "Lex Tower Chambers",
+          "span": "sm:col-span-2"
+        }
+      ]
+    },
+    "photoStrip": [
+      {
+        "src": "/photostrip-1.webp",
+        "label": "High Court Colonnade"
+      },
+      {
+        "src": "/photostrip-2.webp",
+        "label": "Corporate Legal Chambers"
+      },
+      {
+        "src": "/photostrip-3.webp",
+        "label": "Constitutional Jurisprudence"
+      },
+      {
+        "src": "/photostrip-4.webp",
+        "label": "Appellate Courtroom Bench"
+      },
+      {
+        "src": "/photostrip-5.webp",
+        "label": "Digital Governance Room"
+      },
+      {
+        "src": "/photostrip-6.webp",
+        "label": "International Arbitral Hall"
+      }
+    ],
+    "band": {
+      "image": "/taraju-scales.webp",
+      "quote": "Justice in the life and conduct of the State is possible only as first it resides in the hearts of the citizens.",
+      "by": "Plato — Legal Jurisprudence"
+    }
+  }
+}
